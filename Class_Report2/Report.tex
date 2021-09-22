@@ -248,12 +248,12 @@ endmodule
 \end{lstlisting}
 
 \section*{Testing}
-For testing in this lab, it was useful to make sure each state was working separately before combining them all together. For example, first the board was checked if it would say "HI". Then it was tested to see if the timer would work and display. Next, buttons and debouncers were checked. Hard-coding was very useful in these stages until everything could be joined. Once all of these components would work separately, it was simple to integrate everything together into the state machine module. 
+For testing in this lab, it was useful to make sure each state was working separately before combining them all together. For example, first the board was checked if it would say "HI". Then it was tested to see if the timer would work and display. Next, buttons and debouncers were checked, plus confirming whether or not states were changed. Hard-coding was very useful in these stages until everything could be joined. Once all of these components would work separately, it was simple to integrate everything together into the state machine module. 
 
 \section*{Results}
-
+The results of this lab were exactly as expected: a reaction timer. It displays the time at which the button is pressed after the LED turns on, often times between 150 ms and 300 ms. A video of it functioning is included on GitHub. 
 
 \section*{Conclusion}
- 
+This lab demonstrated many different components. The over-arching goal was to create a simple state machine. States were changed based on timing and a user pressing down certain buttons. A timer was created from the clock cycles and displayed on the LED screen when prompted. One of the most difficult parts of this lab was determining what modules were needed and how to integrate everything together. System Verilog is very different from coding in languages like C and requires a completely different approach. All in all, much was learned from generating this code and experience like this will be beneficial in the future. 
 
 \end{document}
