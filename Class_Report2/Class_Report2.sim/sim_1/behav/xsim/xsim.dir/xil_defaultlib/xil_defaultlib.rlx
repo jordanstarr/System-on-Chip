@@ -1,0 +1,11 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/Class_Report2/Class_Report2.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/Class_Report2/Class_Report2.srcs/sim_1/new/rand_test.sv,1632254932,systemVerilog,,,,rand_test,,,,,,,,
+C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/Class_Report2/Class_Report2.srcs/sim_1/new/timer_test.sv,1632107121,systemVerilog,,,,timer_test,,,,,,,,
+C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/Class_Report2/Class_Report2.srcs/sources_1/new/dig_to_sseg.sv,1632090184,systemVerilog,,C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/Class_Report2/Class_Report2.srcs/sources_1/new/timer.sv,,dig_to_sseg,,,,,,,,
+C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/Class_Report2/Class_Report2.srcs/sources_1/new/random_num_generator.sv,1632254808,systemVerilog,,C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/Class_Report2/Class_Report2.srcs/sim_1/new/rand_test.sv,,random_num_generator,,,,,,,,
+C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/Class_Report2/Class_Report2.srcs/sources_1/new/timer.sv,1632106281,systemVerilog,,C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/Class_Report2/Class_Report2.srcs/sources_1/new/top_timer.sv,,timer,,,,,,,,
+C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/Class_Report2/Class_Report2.srcs/sources_1/new/top_timer.sv,1632107121,systemVerilog,,C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/Class_Report2/Class_Report2.srcs/sim_1/new/timer_test.sv,,top_timer,,,,,,,,

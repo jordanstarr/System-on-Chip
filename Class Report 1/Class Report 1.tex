@@ -60,7 +60,7 @@
 %=========== Body  ====================================
 \begin{document}
 
-\title{ELC 4396 02 \\ Class Report 1}
+\title{ELC 4396 02 \\ Class Report 2}
 \author{Jordan Cook}
 
 \maketitle
@@ -68,8 +68,9 @@
 
 \section*{Introduction and Problem Statement} 
 
-The purpose of this coding project was to create a rotating light-up square on the seven segment LED display using the Nexus DDR board. It would rotate in a clockwise pattern at a rate the eye could observe. 
-\\\\ Link to my GitHub Repo: \url{myrepo_when_i_make_it.com}.
+The purpose of this coding project was to create a reaction timer game. A user would press start, wait a random amount of time, and press a button as soon as possible when the reaction LED lit up. This utilized several modules that needed to be created for this specific project as well as some older ones. 
+\\\\ Link to my GitHub Repo: \url{https://github.com/jordanstarr/System-on-Chip}
+\\ Link to the Verilog Code: \url{https://github.com/jordanstarr/lucky_charm}
 
 \section*{Method and Approach}
 
@@ -271,14 +272,14 @@ Note: The code states "!reset\_n" because the board uses negative logic (denoted
 
 \section*{Testing}
 
-Testing on this project was fairly simple: either the code worked or it didn't. A lot of times there were issues with the timing or placement of 7-segments, but this simply took trial and error (as well as consulting the textbook). 
+Testing on this project was fairly simple: either the code worked or it didn't. It was supposed to start on the upper left box and rotate around clockwise. It was important that they were not all lit up (this would indicate a timing issue). A lot of times there were issues with the timing or placement of 7-segments, but this simply took trial and error (as well as consulting the textbook). 
 
 \section*{Results}
 
-After caring timing, the pattern as stated in the textbook was observed on the board. For submission, a video of the board working will be included on the Github link. 
+After careful timing, the pattern as stated in the textbook was observed on the board. For submission, a video of the board working will be included on the Github link. 
 
 \section*{Conclusion}
 
-With the knowledge gained from this experiment, the 7-segment display could be adjusted for more patterns or more uses. Learning how to use the counter module in order to essentially create a pseudo-timer was invaluable and not a approach that I would initally have considered. 
+With the knowledge gained from this experiment, the 7-segment display could be adjusted for more patterns or more uses. Learning how to use the counter module in order to essentially create a pseudo-timer was invaluable and not a approach that I would initally have considered. With more practice in projects like this, I will be able to understand how to create the necessary modules for the needed assignment. 
 
 \end{document}

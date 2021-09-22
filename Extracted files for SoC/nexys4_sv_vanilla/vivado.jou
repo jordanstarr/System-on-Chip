@@ -1,0 +1,202 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Thu May 17 14:31:21 2018
+# Process ID: 10116
+# Current directory: C:/Users/pongchu/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5232
+# Log file: C:/Users/pongchu/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/pongchu/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/work_vivado_2017/sv/sv.xpr
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top fsm_eg_mult_seg [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_2
+launch_runs synth_2 -jobs 4
+wait_on_run synth_2
+synth_design -rtl -name rtl_1
+remove_files  {{C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap05_fsm/ch05_07_fsm_debounce_test.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap05_fsm/ch05_01_fsm_eg_mult_seg.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap05_fsm/ch05_05_edge_detect_gate.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap05_fsm/ch05_04_edge_detect_mealy.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap05_fsm/ch05_03_edge_detect_moore.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap05_fsm/ch05_02_fsm_eg_2_seg.sv}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+remove_files  {{C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap04_seq/ch04_17_disp_hex_mux.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap05_fsm/ch05_06_db_fsm.sv}}
+add_files {{C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap06_fsmd/ch06_02_debounce.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap06_fsmd/ch06_05_bin2bcd.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap06_fsmd/ch06_01_debounce_explicit.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap06_fsmd/ch06_03_fib.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap06_fsmd/ch06_04_div.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap06_fsmd/ch06_07_low_freq_counter.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap06_fsmd/ch06_06_period_counter.sv}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_2
+launch_runs impl_2 -jobs 4
+wait_on_run impl_2
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top debounce [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_2
+launch_runs synth_2 -jobs 4
+wait_on_run synth_2
+refresh_design
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top debounce_explicit [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top fib [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_2
+launch_runs synth_2 -jobs 4
+wait_on_run synth_2
+refresh_design
+remove_files  {{C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap06_fsmd/ch06_07_low_freq_counter.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap06_fsmd/ch06_03_fib.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap06_fsmd/ch06_02_debounce.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap06_fsmd/ch06_01_debounce_explicit.sv}}
+update_compile_order -fileset sources_1
+remove_files  {{C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap06_fsmd/ch06_05_bin2bcd.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap06_fsmd/ch06_04_div.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap06_fsmd/ch06_06_period_counter.sv}}
+add_files {{C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap07_ram/ch07_12_sync_rom_template.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap07_ram/ch07_02_reg_file.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap07_ram/ch07_11_sync_one_port_ram.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap07_ram/ch07_08_fifo.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap07_ram/ch07_09_dual_port_ram.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap07_ram/ch07_01_reg_file4x8.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap07_ram/ch07_06_true_rom_with_init_value.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap07_ram/ch07_05_true_rom_case.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap07_ram/ch07_10_sync_rw_port_ram.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap07_ram/ch07_07_fifo_ctrl.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap07_ram/ch07_03_reg_file_2_read_port.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap07_ram/ch07_04_true_rom_with_file.sv}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_2
+launch_runs impl_2 -jobs 4
+wait_on_run impl_2
+refresh_design
+reset_run synth_2
+launch_runs synth_2 -jobs 4
+wait_on_run synth_2
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top reg_file_2_read_port [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_2
+launch_runs impl_2 -jobs 4
+wait_on_run impl_2
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top true_rom_with_init_value [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_2
+launch_runs synth_2 -jobs 4
+wait_on_run synth_2
+launch_runs impl_2 -jobs 4
+wait_on_run impl_2
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top reg_file_2_read_port [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top true_rom_with_file [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_2
+launch_runs impl_2 -jobs 4
+wait_on_run impl_2
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top sync_rom [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_2
+launch_runs impl_2 -jobs 4
+wait_on_run impl_2
+remove_files  {{C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap07_ram/ch07_08_fifo.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap07_ram/ch07_12_sync_rom_template.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap07_ram/ch07_03_reg_file_2_read_port.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap07_ram/ch07_01_reg_file4x8.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap07_ram/ch07_09_dual_port_ram.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap07_ram/ch07_11_sync_one_port_ram.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap07_ram/ch07_10_sync_rw_port_ram.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap07_ram/ch07_05_true_rom_case.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap07_ram/ch07_04_true_rom_with_file.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap07_ram/ch07_06_true_rom_with_init_value.sv}}
+update_compile_order -fileset sources_1
+remove_files  {{C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap07_ram/ch07_07_fifo_ctrl.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap07_ram/ch07_02_reg_file.sv}}
+add_files {{C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap08_adv/ch08_09_univ_bin_counter_merged.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap08_adv/ch08_03_eq1_block.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap08_adv/ch08_02_and_nonblock.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap08_adv/ch08_12_exp1.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap08_adv/ch08_01_and_block.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap08_adv/ch08_10_fsm_eg_merged.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap08_adv/ch08_05_ab_ff_2seg.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap08_adv/ch08_07_ bin_counter_merge.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap08_adv/ch08_08_ bin_counter_terse.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap08_adv/ch08_04_eq1_non_block.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap08_adv/ch08_11_div_combined.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/chapter_listing/chap08_adv/ch08_06_ab_ff_all.sv}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top bin_counter_compact [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_2
+launch_runs synth_2 -jobs 4
+wait_on_run synth_2
+refresh_design
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top bin_counter_merge [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_2
+launch_runs synth_2 -jobs 4
+wait_on_run synth_2
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top div_combined [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_2
+launch_runs impl_2 -jobs 4
+wait_on_run impl_2
+refresh_design
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ab_ff_all [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_2
+launch_runs synth_2 -jobs 4
+wait_on_run synth_2
+refresh_design
+close_project
+create_project nexys4_sv_vanilla F:/work_vivado_2017/nexys4_sv_vanilla -part xc7a100tcsg324-1
+set_property target_language VHDL [current_project]
+add_files {{C:/Users/pongchu/Google Drive/code_listing_sv/fpga_mcs_sv_src/hdl/sys/subsys/mmio_sys_vanilla.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/fpga_mcs_sv_src/hdl/sys/top/mcs_top_vanilla.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/fpga_mcs_sv_src/hdl/sys/mcs_v2017/cpu.xci} {C:/Users/pongchu/Google Drive/code_listing_sv/fpga_mcs_sv_src/hdl/mmio/uart/uart_rx.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/fpga_mcs_sv_src/hdl/mmio/uart/uart_tx.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/fpga_mcs_sv_src/hdl/mmio/uart/chu_uart.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/fpga_mcs_sv_src/hdl/mmio/uart/uart.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/fpga_mcs_sv_src/hdl/mmio/uart/baud_gen.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/fpga_mcs_sv_src/hdl/sys/bridge/chu_io_map.svh} {C:/Users/pongchu/Google Drive/code_listing_sv/fpga_mcs_sv_src/hdl/sys/bridge/chu_mcs_bridge.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/fpga_mcs_sv_src/hdl/mmio/mmio_support/fifo/fifo_ctrl.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/fpga_mcs_sv_src/hdl/mmio/mmio_support/fifo/fifo.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/fpga_mcs_sv_src/hdl/mmio/mmio_support/fifo/reg_file.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/fpga_mcs_sv_src/hdl/mmio/mmio_support/chu_mmio_controller.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/fpga_mcs_sv_src/hdl/mmio/mmio_basic/chu_timer.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/fpga_mcs_sv_src/hdl/mmio/mmio_basic/chu_gpi.sv} {C:/Users/pongchu/Google Drive/code_listing_sv/fpga_mcs_sv_src/hdl/mmio/mmio_basic/chu_gpo.sv}}
+export_ip_user_files -of_objects  [get_files  {{C:/Users/pongchu/Google Drive/code_listing_sv/fpga_mcs_sv_src/hdl/sys/mcs_v2017/cpu.xci}}] -lib_map_path [list {modelsim=F:/work_vivado_2017/nexys4_sv_vanilla/nexys4_sv_vanilla.cache/compile_simlib/modelsim} {questa=F:/work_vivado_2017/nexys4_sv_vanilla/nexys4_sv_vanilla.cache/compile_simlib/questa} {riviera=F:/work_vivado_2017/nexys4_sv_vanilla/nexys4_sv_vanilla.cache/compile_simlib/riviera} {activehdl=F:/work_vivado_2017/nexys4_sv_vanilla/nexys4_sv_vanilla.cache/compile_simlib/activehdl}] -force -quiet
+add_files -fileset constrs_1 -norecurse {{C:/Users/pongchu/Google Drive/code_listing_sv/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -norecurse {{C:/Users/pongchu/Google Drive/code_listing_sv/build/elf/vanilla_test.elf}}
+set_property used_in_simulation 0 [get_files {C:/Users/pongchu/Google Drive/code_listing_sv/build/elf/vanilla_test.elf}]
+set_property SCOPED_TO_REF cpu [get_files -all -of_objects [get_fileset sources_1] {{C:/Users/pongchu/Google Drive/code_listing_sv/build/elf/vanilla_test.elf}}]
+set_property SCOPED_TO_CELLS { U0/microblaze_I } [get_files -all -of_objects [get_fileset sources_1] {{C:/Users/pongchu/Google Drive/code_listing_sv/build/elf/vanilla_test.elf}}]
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {F:/work_vivado_2017/nexys4_sv_vanilla/nexys4_sv_vanilla.runs/impl_1/mcs_top_vanilla.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {F:/work_vivado_2017/nexys4_sv_vanilla/nexys4_sv_vanilla.runs/impl_1/mcs_top_vanilla.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {F:/work_vivado_2017/nexys4_sv_vanilla/nexys4_sv_vanilla.runs/impl_1/mcs_top_vanilla.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {F:/work_vivado_2017/nexys4_sv_vanilla/nexys4_sv_vanilla.runs/impl_1/mcs_top_vanilla.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+archive_project F:/work_vivado_2017/nexys4_sv_vanilla.xpr.zip -temp_dir C:/Users/pongchu/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-10116-Lenovo-PC -force -exclude_run_results
