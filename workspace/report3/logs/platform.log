@@ -1,0 +1,1102 @@
+TRACE::2021-11-01.12:56:51::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:56:51::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:56:51::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:56:51::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:56:51::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:56:51::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:56:51::SCWPlatform::Do not have an existing db opened. 
+TRACE::2021-11-01.12:56:52::SCWPlatform::Opened new HwDB with name mcs_top_vanilla_0
+TRACE::2021-11-01.12:56:52::SCWWriter::formatted JSON is {
+	"platformName":	"report3",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"report3",
+	"platHandOff":	"C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/FPGA_vanilla/report3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/report3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2021-11-01.12:56:52::SCWWriter::formatted JSON is {
+	"platformName":	"report3",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"report3",
+	"platHandOff":	"C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/FPGA_vanilla/report3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/report3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"report3",
+	"systems":	[{
+			"systemName":	"report3",
+			"systemDesc":	"report3",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"report3"
+		}]
+}
+TRACE::2021-11-01.12:56:52::SCWPlatform::Boot application domains not present, creating them
+TRACE::2021-11-01.12:56:52::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2021-11-01.12:56:52::SCWWriter::formatted JSON is {
+	"platformName":	"report3",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"report3",
+	"platHandOff":	"C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/FPGA_vanilla/report3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/report3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"report3",
+	"systems":	[{
+			"systemName":	"report3",
+			"systemDesc":	"report3",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"report3"
+		}]
+}
+TRACE::2021-11-01.12:56:52::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:56:52::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:56:52::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:56:52::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:56:52::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:56:52::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:56:52::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2021-11-01.12:56:52::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2021-11-01.12:56:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.12:56:52::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:56:52::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:56:52::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:56:52::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:56:52::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:56:52::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:56:52::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2021-11-01.12:56:52::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2021-11-01.12:56:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.12:56:52::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:56:52::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:56:52::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:56:52::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:56:52::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:56:52::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:56:52::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2021-11-01.12:56:52::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2021-11-01.12:56:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.12:56:52::SCWDomain::checking for install qemu data   : 
+TRACE::2021-11-01.12:56:52::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:56:52::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:56:52::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:56:52::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:56:52::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:56:52::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:56:52::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2021-11-01.12:56:52::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2021-11-01.12:56:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.12:56:52::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:56:52::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:56:52::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:56:52::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:56:52::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:56:52::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:56:52::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2021-11-01.12:56:52::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2021-11-01.12:56:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.12:56:52::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:56:52::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:56:52::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:56:52::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:56:52::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:56:52::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:56:52::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2021-11-01.12:56:52::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2021-11-01.12:56:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.12:56:52::SCWMssOS::Checking the sw design at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:56:52::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2021-11-01.12:56:52::SCWMssOS::No sw design opened at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:56:52::SCWMssOS::mss does not exists at C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:56:52::SCWMssOS::Creating sw design at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:56:52::SCWMssOS::Adding the swdes entry, created swdb C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss with des name C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:56:52::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:56:52::SCWMssOS::Writing mss at C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:56:52::SCWMssOS::Completed writing the mss file at C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp
+TRACE::2021-11-01.12:56:52::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2021-11-01.12:56:52::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2021-11-01.12:56:52::SCWMssOS::Completed writing the mss file at C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp
+TRACE::2021-11-01.12:56:52::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2021-11-01.12:57:01::SCWMssOS::Saving the mss changes C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss with des name system
+TRACE::2021-11-01.12:57:01::SCWMssOS::Writing the mss file completed C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWMssOS::Commit changes completed.
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.12:57:01::SCWMssOS::Checking the sw design at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-11-01.12:57:01::SCWMssOS::Sw design exists and opened at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.12:57:01::SCWMssOS::Checking the sw design at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-11-01.12:57:01::SCWMssOS::Sw design exists and opened at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.12:57:01::SCWMssOS::Checking the sw design at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-11-01.12:57:01::SCWMssOS::Sw design exists and opened at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWWriter::formatted JSON is {
+	"platformName":	"report3",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"report3",
+	"platHandOff":	"C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/FPGA_vanilla/report3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/report3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"report3",
+	"systems":	[{
+			"systemName":	"report3",
+			"systemDesc":	"report3",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"report3",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_I",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"eba555455e071421aede40df93d1ae8e",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2021-11-01.12:57:01::SCWPlatform::Started generating the artifacts platform report3
+TRACE::2021-11-01.12:57:01::SCWPlatform::Sanity checking of platform is completed
+LOG::2021-11-01.12:57:01::SCWPlatform::Started generating the artifacts for system configuration report3
+LOG::2021-11-01.12:57:01::SCWSystem::Checking the domain standalone_domain
+LOG::2021-11-01.12:57:01::SCWSystem::Not a boot domain 
+LOG::2021-11-01.12:57:01::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2021-11-01.12:57:01::SCWDomain::Generating domain artifcats
+TRACE::2021-11-01.12:57:01::SCWMssOS::Generating standalone artifcats
+TRACE::2021-11-01.12:57:01::SCWMssOS:: Copying the user libraries. 
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.12:57:01::SCWMssOS::Checking the sw design at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-11-01.12:57:01::SCWMssOS::Sw design exists and opened at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWMssOS::Completed writing the mss file at C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp
+TRACE::2021-11-01.12:57:01::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2021-11-01.12:57:01::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2021-11-01.12:57:01::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2021-11-01.12:57:01::SCWMssOS::skipping the bsp build ... 
+TRACE::2021-11-01.12:57:01::SCWMssOS::Copying to export directory.
+TRACE::2021-11-01.12:57:01::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2021-11-01.12:57:01::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2021-11-01.12:57:01::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2021-11-01.12:57:01::SCWSystem::Completed Processing the sysconfig report3
+LOG::2021-11-01.12:57:01::SCWPlatform::Completed generating the artifacts for system configuration report3
+TRACE::2021-11-01.12:57:01::SCWPlatform::Started preparing the platform 
+TRACE::2021-11-01.12:57:01::SCWSystem::Writing the bif file for system config report3
+TRACE::2021-11-01.12:57:01::SCWSystem::dir created 
+TRACE::2021-11-01.12:57:01::SCWSystem::Writing the bif 
+TRACE::2021-11-01.12:57:01::SCWPlatform::Started writing the spfm file 
+TRACE::2021-11-01.12:57:01::SCWPlatform::Started writing the xpfm file 
+TRACE::2021-11-01.12:57:01::SCWPlatform::Completed generating the platform
+TRACE::2021-11-01.12:57:01::SCWMssOS::Saving the mss changes C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-11-01.12:57:01::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-11-01.12:57:01::SCWMssOS::Commit changes completed.
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.12:57:01::SCWMssOS::Checking the sw design at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-11-01.12:57:01::SCWMssOS::Sw design exists and opened at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.12:57:01::SCWMssOS::Checking the sw design at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-11-01.12:57:01::SCWMssOS::Sw design exists and opened at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.12:57:01::SCWMssOS::Checking the sw design at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-11-01.12:57:01::SCWMssOS::Sw design exists and opened at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWWriter::formatted JSON is {
+	"platformName":	"report3",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"report3",
+	"platHandOff":	"C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/FPGA_vanilla/report3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/report3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"report3",
+	"systems":	[{
+			"systemName":	"report3",
+			"systemDesc":	"report3",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"report3",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_I",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"eba555455e071421aede40df93d1ae8e",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2021-11-01.12:57:01::SCWPlatform::updated the xpfm file.
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.12:57:01::SCWMssOS::Checking the sw design at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-11-01.12:57:01::SCWMssOS::Sw design exists and opened at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWMssOS::Saving the mss changes C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-11-01.12:57:01::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-11-01.12:57:01::SCWMssOS::Commit changes completed.
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.12:57:01::SCWMssOS::Checking the sw design at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-11-01.12:57:01::SCWMssOS::Sw design exists and opened at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.12:57:01::SCWMssOS::Checking the sw design at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-11-01.12:57:01::SCWMssOS::Sw design exists and opened at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.12:57:01::SCWMssOS::Checking the sw design at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-11-01.12:57:01::SCWMssOS::Sw design exists and opened at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWWriter::formatted JSON is {
+	"platformName":	"report3",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"report3",
+	"platHandOff":	"C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/FPGA_vanilla/report3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/report3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"report3",
+	"systems":	[{
+			"systemName":	"report3",
+			"systemDesc":	"report3",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"report3",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_I",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"eba555455e071421aede40df93d1ae8e",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.12:57:01::SCWMssOS::Checking the sw design at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-11-01.12:57:01::SCWMssOS::Sw design exists and opened at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.12:57:01::SCWMssOS::Checking the sw design at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-11-01.12:57:01::SCWMssOS::Sw design exists and opened at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.12:57:01::SCWMssOS::Checking the sw design at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-11-01.12:57:01::SCWMssOS::Sw design exists and opened at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWMssOS::Saving the mss changes C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-11-01.12:57:01::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-11-01.12:57:01::SCWMssOS::Commit changes completed.
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.12:57:01::SCWMssOS::Checking the sw design at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-11-01.12:57:01::SCWMssOS::Sw design exists and opened at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.12:57:01::SCWMssOS::Checking the sw design at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-11-01.12:57:01::SCWMssOS::Sw design exists and opened at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.12:57:01::SCWMssOS::Checking the sw design at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-11-01.12:57:01::SCWMssOS::Sw design exists and opened at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWWriter::formatted JSON is {
+	"platformName":	"report3",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"report3",
+	"platHandOff":	"C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/FPGA_vanilla/report3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/report3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"report3",
+	"systems":	[{
+			"systemName":	"report3",
+			"systemDesc":	"report3",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"report3",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_I",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_I",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"eba555455e071421aede40df93d1ae8e",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2021-11-01.12:57:01::SCWMssOS::Saving the mss changes C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-11-01.12:57:01::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-11-01.12:57:01::SCWMssOS::Commit changes completed.
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.12:57:01::SCWMssOS::Checking the sw design at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-11-01.12:57:01::SCWMssOS::Sw design exists and opened at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.12:57:01::SCWMssOS::Checking the sw design at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-11-01.12:57:01::SCWMssOS::Sw design exists and opened at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:01::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2021-11-01.12:57:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.12:57:01::SCWMssOS::Checking the sw design at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-11-01.12:57:01::SCWMssOS::Sw design exists and opened at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:01::SCWWriter::formatted JSON is {
+	"platformName":	"report3",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"report3",
+	"platHandOff":	"C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/FPGA_vanilla/report3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/report3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"report3",
+	"systems":	[{
+			"systemName":	"report3",
+			"systemDesc":	"report3",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"report3",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_I",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_I",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"eba555455e071421aede40df93d1ae8e",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2021-11-01.12:57:02::SCWPlatform::Clearing the existing platform
+TRACE::2021-11-01.12:57:02::SCWSystem::Clearing the existing sysconfig
+TRACE::2021-11-01.12:57:02::SCWMssOS::Removing the swdes entry for  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:02::SCWSystem::Clearing the domains completed.
+TRACE::2021-11-01.12:57:02::SCWPlatform::Clearing the opened hw db.
+TRACE::2021-11-01.12:57:02::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:02::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:02::SCWPlatform:: Platform location is C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:57:02::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:02::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:57:02::SCWPlatform::Removing the HwDB with name C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:02::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:02::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:02::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:02::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:57:02::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:02::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:57:02::SCWPlatform::Do not have an existing db opened. 
+TRACE::2021-11-01.12:57:02::SCWPlatform::Opened new HwDB with name mcs_top_vanilla_1
+TRACE::2021-11-01.12:57:02::SCWReader::Active system found as  report3
+TRACE::2021-11-01.12:57:02::SCWReader::Handling sysconfig report3
+TRACE::2021-11-01.12:57:02::SCWDomain::checking for install qemu data   : 
+TRACE::2021-11-01.12:57:02::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:02::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:02::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:02::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:57:02::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:02::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:57:02::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_1
+TRACE::2021-11-01.12:57:02::SCWPlatform::Opened existing hwdb mcs_top_vanilla_1
+TRACE::2021-11-01.12:57:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.12:57:02::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:02::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:02::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:02::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:57:02::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:02::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:57:02::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_1
+TRACE::2021-11-01.12:57:02::SCWPlatform::Opened existing hwdb mcs_top_vanilla_1
+TRACE::2021-11-01.12:57:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.12:57:02::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:02::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:02::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:02::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:57:02::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:02::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:57:02::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_1
+TRACE::2021-11-01.12:57:02::SCWPlatform::Opened existing hwdb mcs_top_vanilla_1
+TRACE::2021-11-01.12:57:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.12:57:02::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:02::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:02::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:02::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:57:02::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:02::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:57:02::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_1
+TRACE::2021-11-01.12:57:02::SCWPlatform::Opened existing hwdb mcs_top_vanilla_1
+TRACE::2021-11-01.12:57:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.12:57:02::SCWMssOS::Checking the sw design at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:02::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2021-11-01.12:57:02::SCWMssOS::No sw design opened at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:02::SCWMssOS::mss exists loading the mss file  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:02::SCWMssOS::Opened the sw design from mss  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:02::SCWMssOS::Adding the swdes entry C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss with des name system
+TRACE::2021-11-01.12:57:02::SCWMssOS::updating the scw layer about changes
+TRACE::2021-11-01.12:57:02::SCWMssOS::Opened the sw design.  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:02::SCWMssOS::Saving the mss changes C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:02::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-11-01.12:57:02::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-11-01.12:57:02::SCWMssOS::Commit changes completed.
+TRACE::2021-11-01.12:57:02::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2021-11-01.12:57:02::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2021-11-01.12:57:02::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:02::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:02::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:02::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.12:57:02::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.12:57:02::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.12:57:02::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_1
+TRACE::2021-11-01.12:57:02::SCWPlatform::Opened existing hwdb mcs_top_vanilla_1
+TRACE::2021-11-01.12:57:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.12:57:02::SCWMssOS::Checking the sw design at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:02::SCWMssOS::DEBUG:  swdes dump  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-11-01.12:57:02::SCWMssOS::Sw design exists and opened at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.12:57:02::SCWReader::No isolation master present  
+TRACE::2021-11-01.16:04:11::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:04:11::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:04:11::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:04:11::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.16:04:11::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:04:11::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.16:04:11::SCWPlatform::Do not have an existing db opened. 
+TRACE::2021-11-01.16:04:11::SCWPlatform::Opened new HwDB with name mcs_top_vanilla
+TRACE::2021-11-01.16:04:11::SCWReader::Active system found as  report3
+TRACE::2021-11-01.16:04:11::SCWReader::Handling sysconfig report3
+TRACE::2021-11-01.16:04:11::SCWDomain::checking for install qemu data   : 
+TRACE::2021-11-01.16:04:11::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:04:11::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:04:11::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:04:11::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.16:04:11::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:04:11::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.16:04:11::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla
+TRACE::2021-11-01.16:04:11::SCWPlatform::Opened existing hwdb mcs_top_vanilla
+TRACE::2021-11-01.16:04:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.16:04:11::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:04:11::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:04:11::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:04:11::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.16:04:11::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:04:11::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.16:04:11::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla
+TRACE::2021-11-01.16:04:11::SCWPlatform::Opened existing hwdb mcs_top_vanilla
+TRACE::2021-11-01.16:04:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.16:04:11::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:04:11::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:04:11::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:04:11::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.16:04:11::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:04:11::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.16:04:11::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla
+TRACE::2021-11-01.16:04:11::SCWPlatform::Opened existing hwdb mcs_top_vanilla
+TRACE::2021-11-01.16:04:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.16:04:11::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:04:11::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:04:11::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:04:11::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.16:04:11::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:04:11::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.16:04:11::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla
+TRACE::2021-11-01.16:04:11::SCWPlatform::Opened existing hwdb mcs_top_vanilla
+TRACE::2021-11-01.16:04:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.16:04:11::SCWMssOS::Checking the sw design at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.16:04:11::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2021-11-01.16:04:11::SCWMssOS::No sw design opened at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.16:04:11::SCWMssOS::mss exists loading the mss file  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.16:04:11::SCWMssOS::Opened the sw design from mss  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.16:04:11::SCWMssOS::Adding the swdes entry C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss with des name system
+TRACE::2021-11-01.16:04:11::SCWMssOS::updating the scw layer about changes
+TRACE::2021-11-01.16:04:11::SCWMssOS::Opened the sw design.  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.16:04:11::SCWMssOS::Saving the mss changes C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.16:04:11::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-11-01.16:04:11::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-11-01.16:04:11::SCWMssOS::Commit changes completed.
+TRACE::2021-11-01.16:04:11::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2021-11-01.16:04:11::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2021-11-01.16:04:11::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:04:11::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:04:11::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:04:11::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.16:04:11::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:04:11::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.16:04:11::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla
+TRACE::2021-11-01.16:04:11::SCWPlatform::Opened existing hwdb mcs_top_vanilla
+TRACE::2021-11-01.16:04:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.16:04:11::SCWMssOS::Checking the sw design at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.16:04:11::SCWMssOS::DEBUG:  swdes dump  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-11-01.16:04:11::SCWMssOS::Sw design exists and opened at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.16:04:11::SCWReader::No isolation master present  
+LOG::2021-11-01.16:06:26::SCWPlatform::Started generating the artifacts platform report3
+TRACE::2021-11-01.16:06:26::SCWPlatform::Sanity checking of platform is completed
+LOG::2021-11-01.16:06:26::SCWPlatform::Started generating the artifacts for system configuration report3
+LOG::2021-11-01.16:06:26::SCWSystem::Checking the domain standalone_domain
+LOG::2021-11-01.16:06:26::SCWSystem::Not a boot domain 
+LOG::2021-11-01.16:06:26::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2021-11-01.16:06:26::SCWDomain::Generating domain artifcats
+TRACE::2021-11-01.16:06:26::SCWMssOS::Generating standalone artifcats
+TRACE::2021-11-01.16:06:26::SCWMssOS:: Copying the user libraries. 
+TRACE::2021-11-01.16:06:26::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:06:26::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:06:26::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:06:26::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.16:06:26::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:06:26::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.16:06:26::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla
+TRACE::2021-11-01.16:06:26::SCWPlatform::Opened existing hwdb mcs_top_vanilla
+TRACE::2021-11-01.16:06:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.16:06:26::SCWMssOS::Checking the sw design at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.16:06:26::SCWMssOS::DEBUG:  swdes dump  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-11-01.16:06:26::SCWMssOS::Sw design exists and opened at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.16:06:26::SCWMssOS::Completed writing the mss file at C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp
+TRACE::2021-11-01.16:06:26::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.16:06:26::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2021-11-01.16:06:26::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2021-11-01.16:06:26::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2021-11-01.16:06:26::SCWMssOS::doing bsp build ... 
+TRACE::2021-11-01.16:06:26::SCWMssOS::System Command Ran  C: & cd  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp & make 
+TRACE::2021-11-01.16:06:27::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2021-11-01.16:06:27::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2021-11-01.16:06:27::SCWMssOS::make -j 6 --no-print-directory par_libs
+
+TRACE::2021-11-01.16:06:27::SCWMssOS::"Running Make include in microblaze_I/libsrc/bram_v4_6/src"
+
+TRACE::2021-11-01.16:06:27::SCWMssOS::make -C microblaze_I/libsrc/bram_v4_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2021-11-01.16:06:27::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata
+TRACE::2021-11-01.16:06:27::SCWMssOS::-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2021-11-01.16:06:27::SCWMssOS::"Running Make include in microblaze_I/libsrc/cpu_v2_13/src"
+
+TRACE::2021-11-01.16:06:27::SCWMssOS::make -C microblaze_I/libsrc/cpu_v2_13/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2021-11-01.16:06:27::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata
+TRACE::2021-11-01.16:06:27::SCWMssOS::-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2021-11-01.16:06:27::SCWMssOS::"Running Make include in microblaze_I/libsrc/iomodule_v2_11/src"
+
+TRACE::2021-11-01.16:06:27::SCWMssOS::make -C microblaze_I/libsrc/iomodule_v2_11/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2021-11-01.16:06:27::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -
+TRACE::2021-11-01.16:06:27::SCWMssOS::fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2021-11-01.16:06:27::SCWMssOS::"Running Make include in microblaze_I/libsrc/standalone_v7_5/src"
+
+TRACE::2021-11-01.16:06:27::SCWMssOS::make -C microblaze_I/libsrc/standalone_v7_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2021-11-01.16:06:27::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections 
+TRACE::2021-11-01.16:06:27::SCWMssOS::-fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2021-11-01.16:06:28::SCWMssOS::"Running Make libs in microblaze_I/libsrc/bram_v4_6/src"
+
+TRACE::2021-11-01.16:06:28::SCWMssOS::make -C microblaze_I/libsrc/bram_v4_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2021-11-01.16:06:28::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-se
+TRACE::2021-11-01.16:06:28::SCWMssOS::ctions -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2021-11-01.16:06:28::SCWMssOS::"Running Make libs in microblaze_I/libsrc/cpu_v2_13/src"
+
+TRACE::2021-11-01.16:06:28::SCWMssOS::make -C microblaze_I/libsrc/cpu_v2_13/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2021-11-01.16:06:28::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-se
+TRACE::2021-11-01.16:06:28::SCWMssOS::ctions -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2021-11-01.16:06:28::SCWMssOS::"Running Make libs in microblaze_I/libsrc/iomodule_v2_11/src"
+
+TRACE::2021-11-01.16:06:28::SCWMssOS::make -C microblaze_I/libsrc/iomodule_v2_11/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2021-11-01.16:06:28::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fda
+TRACE::2021-11-01.16:06:28::SCWMssOS::ta-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2021-11-01.16:06:28::SCWMssOS::"Running Make libs in microblaze_I/libsrc/standalone_v7_5/src"
+
+TRACE::2021-11-01.16:06:28::SCWMssOS::make -C microblaze_I/libsrc/standalone_v7_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2021-11-01.16:06:28::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fd
+TRACE::2021-11-01.16:06:28::SCWMssOS::ata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2021-11-01.16:06:33::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2021-11-01.16:06:34::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2021-11-01.16:06:34::SCWMssOS::make --no-print-directory archive
+
+TRACE::2021-11-01.16:06:34::SCWMssOS::mb-ar -r  microblaze_I/lib/libxil.a microblaze_I/lib/xplatform_info.o microblaze_I/lib/microblaze_disable_exceptions.o microbla
+TRACE::2021-11-01.16:06:34::SCWMssOS::ze_I/lib/print.o microblaze_I/lib/_exit.o microblaze_I/lib/xil_testio.o microblaze_I/lib/microblaze_disable_dcache.o microblaze
+TRACE::2021-11-01.16:06:34::SCWMssOS::_I/lib/microblaze_flush_dcache_range.o microblaze_I/lib/microblaze_flush_cache_ext.o microblaze_I/lib/xbram_sinit.o microblaze_
+TRACE::2021-11-01.16:06:34::SCWMssOS::I/lib/xil_misc_psreset_api.o microblaze_I/lib/xil_cache.o microblaze_I/lib/inbyte.o microblaze_I/lib/xbram_g.o microblaze_I/lib
+TRACE::2021-11-01.16:06:34::SCWMssOS::/xiomodule_intr.o microblaze_I/lib/xiomodule_options.o microblaze_I/lib/microblaze_exception_handler.o microblaze_I/lib/microbl
+TRACE::2021-11-01.16:06:34::SCWMssOS::aze_scrub.o microblaze_I/lib/microblaze_invalidate_dcache.o microblaze_I/lib/microblaze_disable_interrupts.o microblaze_I/lib/x
+TRACE::2021-11-01.16:06:34::SCWMssOS::bram_selftest.o microblaze_I/lib/microblaze_interrupt_handler.o microblaze_I/lib/xiomodule_l.o microblaze_I/lib/microblaze_disa
+TRACE::2021-11-01.16:06:34::SCWMssOS::ble_icache.o microblaze_I/lib/xil_clocking.o microblaze_I/lib/xil_mem.o microblaze_I/lib/xiomodule.o microblaze_I/lib/microblaz
+TRACE::2021-11-01.16:06:34::SCWMssOS::e_flush_cache_ext_range.o microblaze_I/lib/xbram_intr.o microblaze_I/lib/xil_sleepcommon.o microblaze_I/lib/xil_printf.o microb
+TRACE::2021-11-01.16:06:34::SCWMssOS::laze_I/lib/xio.o microblaze_I/lib/xiomodule_extra.o microblaze_I/lib/outbyte.o microblaze_I/lib/microblaze_invalidate_dcache_ra
+TRACE::2021-11-01.16:06:34::SCWMssOS::nge.o microblaze_I/lib/microblaze_invalidate_cache_ext.o microblaze_I/lib/microblaze_sleep.o microblaze_I/lib/hw_exception_hand
+TRACE::2021-11-01.16:06:34::SCWMssOS::ler.o microblaze_I/lib/xiomodule_stats.o microblaze_I/lib/xil_util.o microblaze_I/lib/microblaze_update_dcache.o microblaze_I/l
+TRACE::2021-11-01.16:06:34::SCWMssOS::ib/xil_testcache.o microblaze_I/lib/microblaze_selftest.o microblaze_I/lib/microblaze_interrupts_g.o microblaze_I/lib/microblaz
+TRACE::2021-11-01.16:06:34::SCWMssOS::e_enable_exceptions.o microblaze_I/lib/xiomodule_uart_intr.o microblaze_I/lib/microblaze_enable_dcache.o microblaze_I/lib/xbram
+TRACE::2021-11-01.16:06:34::SCWMssOS::.o microblaze_I/lib/microblaze_invalidate_icache_range.o microblaze_I/lib/microblaze_init_dcache_range.o microblaze_I/lib/micro
+TRACE::2021-11-01.16:06:34::SCWMssOS::blaze_invalidate_icache.o microblaze_I/lib/errno.o microblaze_I/lib/xiomodule_uart.o microblaze_I/lib/microblaze_invalidate_cac
+TRACE::2021-11-01.16:06:34::SCWMssOS::he_ext_range.o microblaze_I/lib/xil_exception.o microblaze_I/lib/pvr.o microblaze_I/lib/xil_testmem.o microblaze_I/lib/microbla
+TRACE::2021-11-01.16:06:34::SCWMssOS::ze_update_icache.o microblaze_I/lib/microblaze_flush_dcache.o microblaze_I/lib/xiomodule_g.o microblaze_I/lib/xil_assert.o micr
+TRACE::2021-11-01.16:06:34::SCWMssOS::oblaze_I/lib/microblaze_enable_interrupts.o microblaze_I/lib/microblaze_enable_icache.o microblaze_I/lib/xiomodule_selftest.o m
+TRACE::2021-11-01.16:06:34::SCWMssOS::icroblaze_I/lib/fcntl.o microblaze_I/lib/microblaze_init_icache_range.o
+
+TRACE::2021-11-01.16:06:34::SCWMssOS::'Finished building libraries'
+
+TRACE::2021-11-01.16:06:35::SCWMssOS::Copying to export directory.
+TRACE::2021-11-01.16:06:36::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2021-11-01.16:06:36::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2021-11-01.16:06:36::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2021-11-01.16:06:36::SCWSystem::Completed Processing the sysconfig report3
+LOG::2021-11-01.16:06:36::SCWPlatform::Completed generating the artifacts for system configuration report3
+TRACE::2021-11-01.16:06:36::SCWPlatform::Started preparing the platform 
+TRACE::2021-11-01.16:06:36::SCWSystem::Writing the bif file for system config report3
+TRACE::2021-11-01.16:06:36::SCWSystem::dir created 
+TRACE::2021-11-01.16:06:36::SCWSystem::Writing the bif 
+TRACE::2021-11-01.16:06:36::SCWPlatform::Started writing the spfm file 
+TRACE::2021-11-01.16:06:36::SCWPlatform::Started writing the xpfm file 
+TRACE::2021-11-01.16:06:36::SCWPlatform::Completed generating the platform
+TRACE::2021-11-01.16:06:36::SCWMssOS::Saving the mss changes C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.16:06:36::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-11-01.16:06:36::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-11-01.16:06:36::SCWMssOS::Commit changes completed.
+TRACE::2021-11-01.16:06:36::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:06:36::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:06:36::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:06:36::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.16:06:36::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:06:36::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.16:06:36::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla
+TRACE::2021-11-01.16:06:36::SCWPlatform::Opened existing hwdb mcs_top_vanilla
+TRACE::2021-11-01.16:06:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.16:06:36::SCWMssOS::Checking the sw design at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.16:06:36::SCWMssOS::DEBUG:  swdes dump  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-11-01.16:06:36::SCWMssOS::Sw design exists and opened at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.16:06:36::SCWWriter::formatted JSON is {
+	"platformName":	"report3",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"report3",
+	"platHandOff":	"C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/FPGA_vanilla/report3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/report3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"report3",
+	"systems":	[{
+			"systemName":	"report3",
+			"systemDesc":	"report3",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"report3",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_I",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_I",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"eba555455e071421aede40df93d1ae8e",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2021-11-01.16:06:36::SCWPlatform::updated the xpfm file.
+TRACE::2021-11-01.16:06:36::SCWPlatform::Trying to open the hw design at C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:06:36::SCWPlatform::DSA given C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:06:36::SCWPlatform::DSA absoulate path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:06:36::SCWPlatform::DSA directory C:/Users/Jordan/workspace/report3/hw
+TRACE::2021-11-01.16:06:36::SCWPlatform:: Platform Path C:/Users/Jordan/workspace/report3/hw/report3.xsa
+TRACE::2021-11-01.16:06:36::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2021-11-01.16:06:36::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla
+TRACE::2021-11-01.16:06:36::SCWPlatform::Opened existing hwdb mcs_top_vanilla
+TRACE::2021-11-01.16:06:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-11-01.16:06:36::SCWMssOS::Checking the sw design at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-11-01.16:06:36::SCWMssOS::DEBUG:  swdes dump  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-11-01.16:06:36::SCWMssOS::Sw design exists and opened at  C:/Users/Jordan/workspace/report3/microblaze_I/standalone_domain/bsp/system.mss

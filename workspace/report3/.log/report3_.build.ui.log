@@ -1,0 +1,1613 @@
+2021-11-01T16:06:20.219982200255-16:06:20 **** Build of project report3 ****
+000-buildplatform.bat 58276 report3  
+000-XSDB Server Channel: tcfchan#1
+000-Building the BSP Library for domain  - standalone_domain on processor microblaze_I
+000-make --no-print-directory seq_libs
+000-
+000-'Finished building libraries sequentially.'
+000-
+000-make -j 6 --no-print-directory par_libs
+000-
+000-"Running Make include in microblaze_I/libsrc/bram_v4_6/src"
+000-
+000-make -C microblaze_I/libsrc/bram_v4_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+000-R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata
+000--sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+000-
+000-"Running Make include in microblaze_I/libsrc/cpu_v2_13/src"
+000-
+000-make -C microblaze_I/libsrc/cpu_v2_13/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+000-R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata
+000--sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+000-
+000-"Running Make include in microblaze_I/libsrc/iomodule_v2_11/src"
+000-
+000-make -C microblaze_I/libsrc/iomodule_v2_11/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+000-MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -
+000-fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+000-
+000-"Running Make include in microblaze_I/libsrc/standalone_v7_5/src"
+000-
+000-make -C microblaze_I/libsrc/standalone_v7_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+000-OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections 
+000--fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+000-
+000-"Running Make libs in microblaze_I/libsrc/bram_v4_6/src"
+000-
+000-make -C microblaze_I/libsrc/bram_v4_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+000-LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-se
+000-ctions -Wall -Wextra -fno-tree-loop-distribute-patterns"
+000-
+000-"Running Make libs in microblaze_I/libsrc/cpu_v2_13/src"
+000-
+000-make -C microblaze_I/libsrc/cpu_v2_13/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+000-LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-se
+000-ctions -Wall -Wextra -fno-tree-loop-distribute-patterns"
+000-
+000-"Running Make libs in microblaze_I/libsrc/iomodule_v2_11/src"
+000-
+000-make -C microblaze_I/libsrc/iomodule_v2_11/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+000-LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fda
+000-ta-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+000-
+000-"Running Make libs in microblaze_I/libsrc/standalone_v7_5/src"
+000-
+000-make -C microblaze_I/libsrc/standalone_v7_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+000-ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fd
+000-ata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+000-
+000-In file included from xiomodule_l.c:35:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000-In file included from xbram_g.c:16:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from xiomodule.h:250,
+000-                 from xiomodule_stats.c:29:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from xil_printf.h:16,
+000-                 from xil_io.h:49,
+000-                 from xil_util.h:52,
+000-                 from xil_util.c:35:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from ../../../include/xil_printf.h:16,
+000-                 from ../../../include/xil_io.h:49,
+000-                 from xbram_hw.h:37,
+000-                 from xbram.h:115,
+000-                 from xbram.c:36:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from xiomodule_stats.c:30:
+000/report3/microblaze_I/standalone_domain/bsp/microblaze_I/libsrc/iomodule_v2_11/src/xiomodule_i.h53-1-1"/*" within comment [-Wcomment]1-xiomodule_i.h:53:1: warning: "/*" within comment [-Wcomment]
+000-   53 | /**
+000-      |  
+000-In file included from xiomodule_l.c:37:
+000/report3/microblaze_I/standalone_domain/bsp/microblaze_I/libsrc/iomodule_v2_11/src/xiomodule_i.h53-1-1"/*" within comment [-Wcomment]1-xiomodule_i.h:53:1: warning: "/*" within comment [-Wcomment]
+000-   53 | /**
+000-      |  
+000-xiomodule_l.c: In function 'XIOModule_DeviceInterruptHandler':
+000/report3/microblaze_I/standalone_domain/bsp/microblaze_I/libsrc/iomodule_v2_11/src/xiomodule_l.c146-1-1comparison of unsigned expression in '< 0' is always false [-Wtype-limits]1-xiomodule_l.c:146:35: warning: comparison of unsigned expression in '< 0' is always false [-Wtype-limits]
+000-  146 |  for (IntrNumber = 0U; IntrNumber < XPAR_IOMODULE_INTC_MAX_INTR_SIZE;
+000-      |                                   ^
+000-xiomodule_l.c: In function 'XIOModule_RegisterHandler':
+000/report3/microblaze_I/standalone_domain/bsp/microblaze_I/libsrc/iomodule_v2_11/src/xiomodule_l.c270-1-1array subscript InterruptId is outside array bounds of 'XIOModule_VectorTableEntry[0]' [-Warray-bounds]1-xiomodule_l.c:270:23: warning: array subscript InterruptId is outside array bounds of 'XIOModule_VectorTableEntry[0]' [-Warray-bounds]
+000-  270 |   CfgPtr->HandlerTable[InterruptId].Handler = Handler;
+000-      |   ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+000-In file included from xiomodule_l.c:36:
+000/report3/microblaze_I/standalone_domain/bsp/microblaze_I/libsrc/iomodule_v2_11/src/xiomodule.h354-1-1while referencing 'HandlerTable'0-xiomodule.h:354:3: note: while referencing 'HandlerTable'
+000-  354 |   HandlerTable[XPAR_IOMODULE_INTC_MAX_INTR_SIZE];
+000-      |   ^~~~~~~~~~~~
+000/report3/microblaze_I/standalone_domain/bsp/microblaze_I/libsrc/iomodule_v2_11/src/xiomodule_l.c271-1-1array subscript InterruptId is outside array bounds of 'XIOModule_VectorTableEntry[0]' [-Warray-bounds]1-xiomodule_l.c:271:23: warning: array subscript InterruptId is outside array bounds of 'XIOModule_VectorTableEntry[0]' [-Warray-bounds]
+000-  271 |   CfgPtr->HandlerTable[InterruptId].CallBackRef = CallBackRef;
+000-      |   ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+000-In file included from xiomodule_l.c:36:
+000/report3/microblaze_I/standalone_domain/bsp/microblaze_I/libsrc/iomodule_v2_11/src/xiomodule.h354-1-1while referencing 'HandlerTable'0-xiomodule.h:354:3: note: while referencing 'HandlerTable'
+000-  354 |   HandlerTable[XPAR_IOMODULE_INTC_MAX_INTR_SIZE];
+000-      |   ^~~~~~~~~~~~
+000-In file included from microblaze_interrupts_g.c:17:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from inbyte.c:1:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000-In file included from xiomodule.h:250,
+000-                 from xiomodule_uart.c:35:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from xbram_sinit.c:34:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from xiomodule_uart.c:36:
+000/report3/microblaze_I/standalone_domain/bsp/microblaze_I/libsrc/iomodule_v2_11/src/xiomodule_i.h53-1-1"/*" within comment [-Wcomment]1-xiomodule_i.h:53:1: warning: "/*" within comment [-Wcomment]
+000-   53 | /**
+000-      |  
+000-In file included from xiomodule.h:250,
+000-                 from xiomodule.c:37:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from xiomodule.c:39:
+000/report3/microblaze_I/standalone_domain/bsp/microblaze_I/libsrc/iomodule_v2_11/src/xiomodule_i.h53-1-1"/*" within comment [-Wcomment]1-xiomodule_i.h:53:1: warning: "/*" within comment [-Wcomment]
+000-   53 | /**
+000-      |  
+000-xiomodule.c: In function 'XIOModule_Initialize':
+000/report3/microblaze_I/standalone_domain/bsp/microblaze_I/libsrc/iomodule_v2_11/src/xiomodule.c147-1-1comparison is always false due to limited range of data type [-Wtype-limits]1-xiomodule.c:147:18: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+000-  147 |  for (Id = 0; Id < XPAR_IOMODULE_INTC_MAX_INTR_SIZE; Id++) {
+000-      |                  ^
+000/report3/microblaze_I/standalone_domain/bsp/microblaze_I/libsrc/iomodule_v2_11/src/xiomodule.c193-1-1comparison is always false due to limited range of data type [-Wtype-limits]1-xiomodule.c:193:19: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+000-  193 |   for (Id = 0; Id < XPAR_IOMODULE_INTC_MAX_INTR_SIZE; Id++) {
+000-      |                   ^
+000-In file included from ../../../include/xstatus.h:33,
+000-                 from xiomodule.h:251,
+000-                 from xiomodule.c:37:
+000-xiomodule.c: In function 'XIOModule_Connect':
+000/report3/microblaze_I/standalone_domain/bsp/microblaze_I/libsrc/iomodule_v2_11/src/xiomodule.c330-1-1comparison is always false due to limited range of data type [-Wtype-limits]1-xiomodule.c:330:23: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+000-  330 |  Xil_AssertNonvoid(Id < XPAR_IOMODULE_INTC_MAX_INTR_SIZE);
+000-      |                       ^
+000/report3113-1-1in definition of macro 'Xil_AssertNonvoid'0-../../../include/xil_assert.h:113:9: note: in definition of macro 'Xil_AssertNonvoid'
+000-  113 |     if (Expression) {                              \
+000-      |         ^~~~~~~~~~
+000-xiomodule.c: In function 'XIOModule_Disconnect':
+000/report3/microblaze_I/standalone_domain/bsp/microblaze_I/libsrc/iomodule_v2_11/src/xiomodule.c370-1-1comparison is always false due to limited range of data type [-Wtype-limits]1-xiomodule.c:370:20: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+000-  370 |  Xil_AssertVoid(Id < XPAR_IOMODULE_INTC_MAX_INTR_SIZE);
+000-      |                    ^
+000/report388-1-1in definition of macro 'Xil_AssertVoid'0-../../../include/xil_assert.h:88:9: note: in definition of macro 'Xil_AssertVoid'
+000-   88 |     if (Expression) {                              \
+000-      |         ^~~~~~~~~~
+000-xiomodule.c: In function 'XIOModule_Enable':
+000/report3/microblaze_I/standalone_domain/bsp/microblaze_I/libsrc/iomodule_v2_11/src/xiomodule.c420-1-1comparison is always false due to limited range of data type [-Wtype-limits]1-xiomodule.c:420:20: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+000-  420 |  Xil_AssertVoid(Id < XPAR_IOMODULE_INTC_MAX_INTR_SIZE);
+000-      |                    ^
+000/report388-1-1in definition of macro 'Xil_AssertVoid'0-../../../include/xil_assert.h:88:9: note: in definition of macro 'Xil_AssertVoid'
+000-   88 |     if (Expression) {                              \
+000-      |         ^~~~~~~~~~
+000-xiomodule.c: In function 'XIOModule_Disable':
+000/report3/microblaze_I/standalone_domain/bsp/microblaze_I/libsrc/iomodule_v2_11/src/xiomodule.c466-1-1comparison is always false due to limited range of data type [-Wtype-limits]1-xiomodule.c:466:20: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+000-  466 |  Xil_AssertVoid(Id < XPAR_IOMODULE_INTC_MAX_INTR_SIZE);
+000-      |                    ^
+000/report388-1-1in definition of macro 'Xil_AssertVoid'0-../../../include/xil_assert.h:88:9: note: in definition of macro 'Xil_AssertVoid'
+000-   88 |     if (Expression) {                              \
+000-      |         ^~~~~~~~~~
+000-xiomodule.c: In function 'XIOModule_Acknowledge':
+000/report3/microblaze_I/standalone_domain/bsp/microblaze_I/libsrc/iomodule_v2_11/src/xiomodule.c510-1-1comparison is always false due to limited range of data type [-Wtype-limits]1-xiomodule.c:510:20: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+000-  510 |  Xil_AssertVoid(Id < XPAR_IOMODULE_INTC_MAX_INTR_SIZE);
+000-      |                    ^
+000/report388-1-1in definition of macro 'Xil_AssertVoid'0-../../../include/xil_assert.h:88:9: note: in definition of macro 'Xil_AssertVoid'
+000-   88 |     if (Expression) {                              \
+000-      |         ^~~~~~~~~~
+000-xiomodule.c: In function 'XIOModule_ConnectFastHandler':
+000/report3/microblaze_I/standalone_domain/bsp/microblaze_I/libsrc/iomodule_v2_11/src/xiomodule.c615-1-1comparison is always false due to limited range of data type [-Wtype-limits]1-xiomodule.c:615:23: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+000-  615 |  Xil_AssertNonvoid(Id < XPAR_IOMODULE_INTC_MAX_INTR_SIZE);
+000-      |                       ^
+000/report3113-1-1in definition of macro 'Xil_AssertNonvoid'0-../../../include/xil_assert.h:113:9: note: in definition of macro 'Xil_AssertNonvoid'
+000-  113 |     if (Expression) {                              \
+000-      |         ^~~~~~~~~~
+000-xiomodule.c: In function 'XIOModule_SetNormalIntrMode':
+000/report3/microblaze_I/standalone_domain/bsp/microblaze_I/libsrc/iomodule_v2_11/src/xiomodule.c697-1-1comparison is always false due to limited range of data type [-Wtype-limits]1-xiomodule.c:697:20: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+000-  697 |  Xil_AssertVoid(Id < XPAR_IOMODULE_INTC_MAX_INTR_SIZE);
+000-      |                    ^
+000/report388-1-1in definition of macro 'Xil_AssertVoid'0-../../../include/xil_assert.h:88:9: note: in definition of macro 'Xil_AssertVoid'
+000-   88 |     if (Expression) {                              \
+000-      |         ^~~~~~~~~~
+000-In file included from xiomodule.h:250,
+000-                 from xiomodule_options.c:30:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from ../../../include/xil_printf.h:16,
+000-                 from ../../../include/xil_io.h:49,
+000-                 from xbram_hw.h:37,
+000-                 from xbram.h:115,
+000-                 from xbram_selftest.c:49:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from pvr.c:15:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000-In file included from ../../../include/xil_printf.h:16,
+000-                 from ../../../include/xil_io.h:49,
+000-                 from xbram_hw.h:37,
+000-                 from xbram.h:115,
+000-                 from xbram_intr.c:32:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from xiomodule.h:250,
+000-                 from xiomodule_selftest.c:30:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from xiomodule_selftest.c:31:
+000/report3/microblaze_I/standalone_domain/bsp/microblaze_I/libsrc/iomodule_v2_11/src/xiomodule_i.h53-1-1"/*" within comment [-Wcomment]1-xiomodule_i.h:53:1: warning: "/*" within comment [-Wcomment]
+000-   53 | /**
+000-      |  
+000-In file included from xiomodule.h:250,
+000-                 from xiomodule_extra.c:31:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from xiomodule.h:250,
+000-                 from xiomodule_uart_intr.c:36:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from xiomodule_extra.c:32:
+000/report3/microblaze_I/standalone_domain/bsp/microblaze_I/libsrc/iomodule_v2_11/src/xiomodule_i.h53-1-1"/*" within comment [-Wcomment]1-xiomodule_i.h:53:1: warning: "/*" within comment [-Wcomment]
+000-   53 | /**
+000-      |  
+000-In file included from xiomodule_uart_intr.c:37:
+000/report3/microblaze_I/standalone_domain/bsp/microblaze_I/libsrc/iomodule_v2_11/src/xiomodule_i.h53-1-1"/*" within comment [-Wcomment]1-xiomodule_i.h:53:1: warning: "/*" within comment [-Wcomment]
+000-   53 | /**
+000-      |  
+000-In file included from xiomodule_g.c:16:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from xiomodule_intr.c:70:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from xil_testmem.h:106,
+000-                 from xil_testmem.c:31:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from xil_printf.h:16,
+000-                 from xil_clocking.h:34,
+000-                 from xil_clocking.c:25:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from outbyte.c:1:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from xil_printf.h:16,
+000-                 from xil_io.h:49,
+000-                 from xil_sleepcommon.c:24:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from xil_printf.h:16,
+000-                 from xil_printf.c:12:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from xil_cache.h:55,
+000-                 from xil_cache.c:31:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from xil_printf.h:16,
+000-                 from xil_io.h:49,
+000-                 from xplatform_info.c:40:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from xil_printf.h:16,
+000-                 from xil_io.h:49,
+000-                 from xil_testio.c:26:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from xil_printf.h:16,
+000-                 from print.c:20:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from microblaze_sleep.h:58,
+000-                 from microblaze_sleep.c:55:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report369-1-1'#pragma message: For the sleep routines, assembly instructions are used'0-microblaze_sleep.c:69:9: note: '#pragma message: For the sleep routines, assembly instructions are used'
+000-   69 | #pragma message ("For the sleep routines, assembly instructions are used")
+000-      |         ^~~~~~~
+000-In file included from xil_printf.h:16,
+000-                 from xil_io.h:49,
+000-                 from xil_misc_psreset_api.h:37,
+000-                 from xil_misc_psreset_api.c:29:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from microblaze_enable_exceptions.S:12:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from microblaze_enable_dcache.S:18:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from microblaze_invalidate_icache_range.S:19:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from microblaze_flush_dcache_range.S:17:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from microblaze_init_dcache_range.S:18:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from microblaze_disable_interrupts.S:29:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from microblaze_invalidate_dcache.S:14:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from microblaze_invalidate_cache_ext_range.S:17:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from microblaze_disable_icache.S:18:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from microblaze_invalidate_dcache_range.S:19:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from microblaze_flush_dcache.S:14:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from microblaze_scrub.S:24:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from microblaze_flush_cache_ext_range.S:17:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from microblaze_update_dcache.S:34:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from microblaze_invalidate_icache.S:15:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from microblaze_enable_icache.S:17:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from microblaze_enable_interrupts.S:30:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from microblaze_init_icache_range.S:19:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from microblaze_disable_dcache.S:16:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from microblaze_disable_exceptions.S:12:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from hw_exception_handler.S:17:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from microblaze_update_icache.S:33:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from microblaze_flush_cache_ext.S:14:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from microblaze_invalidate_cache_ext.S:14:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-In file included from microblaze_selftest.S:59:
+000/report3537-1-1"XPAR_DLMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:537: warning: "XPAR_DLMB_CNTLR_BASEADDR" redefined
+000-  537 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3495-1-1this is the location of the previous definition0-../../../include/xparameters.h:495: note: this is the location of the previous definition
+000-  495 | #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3538-1-1"XPAR_DLMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:538: warning: "XPAR_DLMB_CNTLR_HIGHADDR" redefined
+000-  538 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3496-1-1this is the location of the previous definition0-../../../include/xparameters.h:496: note: this is the location of the previous definition
+000-  496 | #define XPAR_DLMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000/report3556-1-1"XPAR_ILMB_CNTLR_BASEADDR" redefined1-../../../include/xparameters.h:556: warning: "XPAR_ILMB_CNTLR_BASEADDR" redefined
+000-  556 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000
+000-      | 
+000/report3513-1-1this is the location of the previous definition0-../../../include/xparameters.h:513: note: this is the location of the previous definition
+000-  513 | #define XPAR_ILMB_CNTLR_BASEADDR 0x00000000U
+000-      | 
+000/report3557-1-1"XPAR_ILMB_CNTLR_HIGHADDR" redefined1-../../../include/xparameters.h:557: warning: "XPAR_ILMB_CNTLR_HIGHADDR" redefined
+000-  557 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFF
+000-      | 
+000/report3514-1-1this is the location of the previous definition0-../../../include/xparameters.h:514: note: this is the location of the previous definition
+000-  514 | #define XPAR_ILMB_CNTLR_HIGHADDR 0x0001FFFFU
+000-      | 
+000-"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+000-
+000-'Finished building libraries parallelly.'
+000-
+000-make --no-print-directory archive
+000-
+000-mb-ar -r  microblaze_I/lib/libxil.a microblaze_I/lib/xplatform_info.o microblaze_I/lib/microblaze_disable_exceptions.o microbla
+000-ze_I/lib/print.o microblaze_I/lib/_exit.o microblaze_I/lib/xil_testio.o microblaze_I/lib/microblaze_disable_dcache.o microblaze
+000-_I/lib/microblaze_flush_dcache_range.o microblaze_I/lib/microblaze_flush_cache_ext.o microblaze_I/lib/xbram_sinit.o microblaze_
+000-I/lib/xil_misc_psreset_api.o microblaze_I/lib/xil_cache.o microblaze_I/lib/inbyte.o microblaze_I/lib/xbram_g.o microblaze_I/lib
+000-/xiomodule_intr.o microblaze_I/lib/xiomodule_options.o microblaze_I/lib/microblaze_exception_handler.o microblaze_I/lib/microbl
+000-aze_scrub.o microblaze_I/lib/microblaze_invalidate_dcache.o microblaze_I/lib/microblaze_disable_interrupts.o microblaze_I/lib/x
+000-bram_selftest.o microblaze_I/lib/microblaze_interrupt_handler.o microblaze_I/lib/xiomodule_l.o microblaze_I/lib/microblaze_disa
+000-ble_icache.o microblaze_I/lib/xil_clocking.o microblaze_I/lib/xil_mem.o microblaze_I/lib/xiomodule.o microblaze_I/lib/microblaz
+000-e_flush_cache_ext_range.o microblaze_I/lib/xbram_intr.o microblaze_I/lib/xil_sleepcommon.o microblaze_I/lib/xil_printf.o microb
+000-laze_I/lib/xio.o microblaze_I/lib/xiomodule_extra.o microblaze_I/lib/outbyte.o microblaze_I/lib/microblaze_invalidate_dcache_ra
+000-nge.o microblaze_I/lib/microblaze_invalidate_cache_ext.o microblaze_I/lib/microblaze_sleep.o microblaze_I/lib/hw_exception_hand
+000-ler.o microblaze_I/lib/xiomodule_stats.o microblaze_I/lib/xil_util.o microblaze_I/lib/microblaze_update_dcache.o microblaze_I/l
+000-ib/xil_testcache.o microblaze_I/lib/microblaze_selftest.o microblaze_I/lib/microblaze_interrupts_g.o microblaze_I/lib/microblaz
+000-e_enable_exceptions.o microblaze_I/lib/xiomodule_uart_intr.o microblaze_I/lib/microblaze_enable_dcache.o microblaze_I/lib/xbram
+000-.o microblaze_I/lib/microblaze_invalidate_icache_range.o microblaze_I/lib/microblaze_init_dcache_range.o microblaze_I/lib/micro
+000-blaze_invalidate_icache.o microblaze_I/lib/errno.o microblaze_I/lib/xiomodule_uart.o microblaze_I/lib/microblaze_invalidate_cac
+000-he_ext_range.o microblaze_I/lib/xil_exception.o microblaze_I/lib/pvr.o microblaze_I/lib/xil_testmem.o microblaze_I/lib/microbla
+000-ze_update_icache.o microblaze_I/lib/microblaze_flush_dcache.o microblaze_I/lib/xiomodule_g.o microblaze_I/lib/xil_assert.o micr
+000-oblaze_I/lib/microblaze_enable_interrupts.o microblaze_I/lib/microblaze_enable_icache.o microblaze_I/lib/xiomodule_selftest.o m
+000-icroblaze_I/lib/fcntl.o microblaze_I/lib/microblaze_init_icache_range.o
+000-
+000-mb-ar: creating microblaze_I/lib/libxil.a
+000-'Finished building libraries'
+000-
+00255-
+16:06:36 Build Finished (took 16s.74ms)
+

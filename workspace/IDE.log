@@ -1,0 +1,78 @@
+12:55:25 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Jordan\workspace\temp_xsdb_launch_script.tcl
+12:55:26 INFO  : Platform repository initialization has completed.
+12:55:26 INFO  : Registering command handlers for Vitis TCF services
+12:55:32 INFO  : XSCT server has started successfully.
+12:55:37 INFO  : Successfully done setting XSCT server connection channel  
+12:55:37 INFO  : plnx-install-location is set to ''
+12:55:37 INFO  : Successfully done query RDI_DATADIR 
+12:55:37 INFO  : Successfully done setting workspace for the tool. 
+12:57:01 INFO  : Result from executing command 'getProjects': report3
+12:57:01 INFO  : Result from executing command 'getPlatforms': 
+16:04:04 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Jordan\workspace\temp_xsdb_launch_script.tcl
+16:04:10 INFO  : Platform repository initialization has completed.
+16:04:10 INFO  : XSCT server has started successfully.
+16:04:10 INFO  : plnx-install-location is set to ''
+16:04:10 INFO  : Successfully done setting XSCT server connection channel  
+16:04:11 INFO  : Registering command handlers for Vitis TCF services
+16:04:11 INFO  : Successfully done setting workspace for the tool. 
+16:04:11 INFO  : Successfully done query RDI_DATADIR 
+16:06:36 INFO  : Result from executing command 'getProjects': report3
+16:06:36 INFO  : Result from executing command 'getPlatforms': report3|C:/Users/Jordan/workspace/report3/export/report3/report3.xpfm
+16:07:37 INFO  : Result from executing command 'getProjects': report3;report3part2
+16:07:37 INFO  : Result from executing command 'getPlatforms': report3|C:/Users/Jordan/workspace/report3/export/report3/report3.xpfm
+16:07:57 INFO  : Result from executing command 'getProjects': report3;report3part2
+16:07:57 INFO  : Result from executing command 'getPlatforms': report3part2|C:/Users/Jordan/workspace/report3part2/export/report3part2/report3part2.xpfm;report3|C:/Users/Jordan/workspace/report3/export/report3/report3.xpfm
+16:10:03 INFO  : Checking for BSP changes to sync application flags for project 'codeForReport3'...
+16:19:57 INFO  : Checking for BSP changes to sync application flags for project 'codeForReport3'...
+16:21:49 INFO  : Bit file 'C:/Users/Jordan/workspace/codeForReport3/_ide/bitstream/download.bit' is generated.
+16:21:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:21:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+16:21:55 INFO  : Device configured successfully with "C:/Users/Jordan/workspace/codeForReport3/_ide/bitstream/download.bit"
+16:26:31 INFO  : Checking for BSP changes to sync application flags for project 'codeForReport3'...
+16:27:22 INFO  : Bit file 'C:/Users/Jordan/workspace/codeForReport3/_ide/bitstream/download.bit' is generated.
+16:27:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:27:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+16:27:23 INFO  : Device configured successfully with "C:/Users/Jordan/workspace/codeForReport3/_ide/bitstream/download.bit"
+16:27:53 INFO  : Checking for BSP changes to sync application flags for project 'codeForReport3'...
+16:28:43 INFO  : Bit file 'C:/Users/Jordan/workspace/codeForReport3/_ide/bitstream/download.bit' is generated.
+16:28:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:28:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+16:28:44 INFO  : Device configured successfully with "C:/Users/Jordan/workspace/codeForReport3/_ide/bitstream/download.bit"
+16:44:09 INFO  : Result from executing command 'getProjects': report3;report3part2;report3part3
+16:44:09 INFO  : Result from executing command 'getPlatforms': report3part2|C:/Users/Jordan/workspace/report3part2/export/report3part2/report3part2.xpfm;report3|C:/Users/Jordan/workspace/report3/export/report3/report3.xpfm
+16:44:39 INFO  : Result from executing command 'getProjects': report3;report3part2;report3part3
+16:44:39 INFO  : Result from executing command 'getPlatforms': report3part2|C:/Users/Jordan/workspace/report3part2/export/report3part2/report3part2.xpfm;report3part3|C:/Users/Jordan/workspace/report3part3/export/report3part3/report3part3.xpfm;report3|C:/Users/Jordan/workspace/report3/export/report3/report3.xpfm
+16:45:02 INFO  : Projects exported to 'C:\Users\Jordan\vitis_export_archive.ide.zip'
+16:47:01 INFO  : Checking for BSP changes to sync application flags for project 'codeForReport3'...
+16:49:02 INFO  : Checking for BSP changes to sync application flags for project 'part3'...
+16:49:58 INFO  : Bit file 'C:/Users/Jordan/workspace/part3/_ide/bitstream/download.bit' is generated.
+16:49:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:49:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+16:49:58 ERROR : couldn't open "C:/Users/Jordan/workspace/part3/_ide/bitstream/download.bit": no such file or directory
+16:50:33 INFO  : Bit file 'C:/Users/Jordan/workspace/part3/_ide/bitstream/download.bit' is generated.
+16:50:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:50:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+16:50:33 ERROR : couldn't open "C:/Users/Jordan/workspace/part3/_ide/bitstream/download.bit": no such file or directory
+16:53:27 INFO  : Bit file 'C:/Users/Jordan/workspace/part3/_ide/bitstream/download.bit' is generated.
+16:53:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:53:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+16:53:27 ERROR : couldn't open "C:/Users/Jordan/workspace/part3/_ide/bitstream/download.bit": no such file or directory
+16:55:14 INFO  : Bit file 'C:/Users/Jordan/workspace/part3/_ide/bitstream/download.bit' is generated.
+16:55:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:55:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+16:55:15 INFO  : Device configured successfully with "C:/Users/Jordan/workspace/part3/_ide/bitstream/download.bit"
+18:16:40 INFO  : Checking for BSP changes to sync application flags for project 'codeForReport3'...
+18:17:19 INFO  : Checking for BSP changes to sync application flags for project 'codeForReport3'...
+18:20:16 INFO  : Checking for BSP changes to sync application flags for project 'codeForReport3'...
+18:20:42 INFO  : Bit file 'C:/Users/Jordan/workspace/part3/_ide/bitstream/download.bit' is generated.
+18:20:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:20:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+18:20:42 INFO  : Device configured successfully with "C:/Users/Jordan/workspace/part3/_ide/bitstream/download.bit"
+13:32:24 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Jordan\workspace\temp_xsdb_launch_script.tcl
+13:32:32 INFO  : Platform repository initialization has completed.
+13:32:32 INFO  : XSCT server has started successfully.
+13:32:32 INFO  : plnx-install-location is set to ''
+13:32:32 INFO  : Successfully done setting XSCT server connection channel  
+13:32:33 INFO  : Registering command handlers for Vitis TCF services
+13:32:37 INFO  : Successfully done setting workspace for the tool. 
+13:32:37 INFO  : Successfully done query RDI_DATADIR 
