@@ -1,0 +1,124 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Mon Nov  1 16:40:00 2021
+| Host         : DESKTOP-21NJNHC running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file mcs_top_vanilla_control_sets_placed.rpt
+| Design       : mcs_top_vanilla
+| Device       : xc7a100t
+--------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    46 |
+|    Minimum number of control sets                        |    46 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    96 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    46 |
+| >= 0 to < 4        |     7 |
+| >= 4 to < 6        |     5 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     7 |
+| >= 10 to < 12      |     1 |
+| >= 12 to < 14      |     9 |
+| >= 14 to < 16      |     1 |
+| >= 16              |    15 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              62 |           26 |
+| No           | No                    | Yes                    |             175 |           78 |
+| No           | Yes                   | No                     |             127 |           46 |
+| Yes          | No                    | No                     |              32 |           28 |
+| Yes          | No                    | Yes                    |             127 |           43 |
+| Yes          | Yes                   | No                     |             165 |           58 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++--------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+------------------+----------------+--------------+
+|                      Clock Signal                      |                                                     Enable Signal                                                    |                                                       Set/Reset Signal                                                       | Slice Load Count | Bel Load Count | Bels / Slice |
++--------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+------------------+----------------+--------------+
+|  mmio_unit/slot_4/ledblinkie/led0/timer/count_reg[0]_0 |                                                                                                                      |                                                                                                                              |                1 |              1 |         1.00 |
+|  mmio_unit/slot_4/ledblinkie/led1/timer/count_reg[0]_0 |                                                                                                                      |                                                                                                                              |                1 |              1 |         1.00 |
+|  mmio_unit/slot_4/ledblinkie/led3/timer/count_reg[0]_0 |                                                                                                                      |                                                                                                                              |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                         |                                                                                                                      | cpu_unit/inst/microblaze_I/U0/MicroBlaze_Core_I/Area.Core/Decode_I/Using_FPGA.New_Carry_MUXCY/Use_Async_Reset.sync_reset_reg |                1 |              1 |         1.00 |
+|  mmio_unit/slot_4/ledblinkie/led2/timer/count_reg[0]_0 |                                                                                                                      |                                                                                                                              |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                         |                                                                                                                      | cpu_unit/inst/microblaze_I/U0/MicroBlaze_Core_I/Area.Core/Decode_I/MSR_Rst                                                   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                         | cpu_unit/inst/microblaze_I/U0/MicroBlaze_Core_I/Area.Core/Decode_I/MTSMSR_Write                                      | cpu_unit/inst/microblaze_I/U0/MicroBlaze_Core_I/sync_reset                                                                   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                         |                                                                                                                      | cpu_unit/inst/rst_0/U0/bus_struct_reset[0]                                                                                   |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG                                         |                                                                                                                      | cpu_unit/inst/microblaze_I/U0/MicroBlaze_Core_I/Area.Core/Decode_I/Using_FPGA.MUXCY_JUMP_CARRY3/S_0                          |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                                         | mmio_unit/uart_slot1/uart_unit/uart_tx_unit/s_next                                                                   | mmio_unit/slot_4/ledblinkie/led3/timer/AR[0]                                                                                 |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG                                         | mmio_unit/uart_slot1/uart_unit/uart_rx_unit/s_next                                                                   | mmio_unit/slot_4/ledblinkie/led3/timer/AR[0]                                                                                 |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG                                         |                                                                                                                      | cpu_unit/inst/rst_0/U0/EXT_LPF/lpf_int                                                                                       |                2 |              5 |         2.50 |
+|  clk_IBUF_BUFG                                         | cpu_unit/inst/rst_0/U0/SEQ/seq_cnt_en                                                                                | cpu_unit/inst/rst_0/U0/SEQ/SEQ_COUNTER/clear                                                                                 |                1 |              6 |         6.00 |
+|  clk_IBUF_BUFG                                         | cpu_unit/inst/microblaze_I/U0/MicroBlaze_Core_I/Area.Core/Decode_I/Using_FPGA.of_PipeRun_MuxCY_1/Using_FPGA.Native_0 | cpu_unit/inst/microblaze_I/U0/MicroBlaze_Core_I/Area.Core/Decode_I/Using_FPGA.MUXCY_JUMP_CARRY3/S66_out                      |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG                                         | mmio_unit/uart_slot1/uart_unit/uart_rx_unit/b_next                                                                   | mmio_unit/slot_4/ledblinkie/led3/timer/AR[0]                                                                                 |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                         | mmio_unit/uart_slot1/uart_unit/fifo_rx_unit/c_unit/r_ptr_logic[7]_i_1_n_0                                            | mmio_unit/slot_4/ledblinkie/led3/timer/AR[0]                                                                                 |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                         | mmio_unit/uart_slot1/uart_unit/fifo_rx_unit/c_unit/w_ptr_logic[7]_i_1_n_0                                            | mmio_unit/slot_4/ledblinkie/led3/timer/AR[0]                                                                                 |                4 |              8 |         2.00 |
+|  clk_IBUF_BUFG                                         | mmio_unit/uart_slot1/uart_unit/uart_tx_unit/E[0]                                                                     | mmio_unit/slot_4/ledblinkie/led3/timer/AR[0]                                                                                 |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG                                         | mmio_unit/uart_slot1/uart_unit/uart_tx_unit/empty_logic_reg[0]                                                       | mmio_unit/slot_4/ledblinkie/led3/timer/AR[0]                                                                                 |                4 |              8 |         2.00 |
+|  clk_IBUF_BUFG                                         | mmio_unit/uart_slot1/uart_unit/uart_tx_unit/b_next_0                                                                 | mmio_unit/slot_4/ledblinkie/led3/timer/AR[0]                                                                                 |                4 |              8 |         2.00 |
+|  clk_IBUF_BUFG                                         | mmio_unit/uart_slot1/wr_dvsr                                                                                         | mmio_unit/slot_4/ledblinkie/led3/timer/AR[0]                                                                                 |                3 |             11 |         3.67 |
+|  clk_IBUF_BUFG                                         | mmio_unit/uart_slot1/uart_unit/fifo_rx_unit/c_unit/full_logic_reg_1                                                  |                                                                                                                              |                3 |             12 |         4.00 |
+|  clk_IBUF_BUFG                                         | mmio_unit/uart_slot1/uart_unit/fifo_rx_unit/c_unit/w_ptr_logic_reg[6]_0                                              |                                                                                                                              |                3 |             12 |         4.00 |
+|  clk_IBUF_BUFG                                         | mmio_unit/uart_slot1/uart_unit/fifo_tx_unit/c_unit/w_ptr_logic_reg[6]_0                                              |                                                                                                                              |                3 |             12 |         4.00 |
+|  clk_IBUF_BUFG                                         | mmio_unit/uart_slot1/uart_unit/fifo_tx_unit/c_unit/w_ptr_logic_reg[7]_0                                              |                                                                                                                              |                3 |             12 |         4.00 |
+|  clk_IBUF_BUFG                                         | mmio_unit/uart_slot1/uart_unit/fifo_tx_unit/c_unit/full_logic_reg_2                                                  |                                                                                                                              |                3 |             12 |         4.00 |
+|  clk_IBUF_BUFG                                         | mmio_unit/uart_slot1/uart_unit/fifo_tx_unit/c_unit/full_logic_reg_1                                                  |                                                                                                                              |                3 |             12 |         4.00 |
+|  clk_IBUF_BUFG                                         | mmio_unit/gpo_slot2/wr_en                                                                                            | mmio_unit/slot_4/ledblinkie/led3/timer/AR[0]                                                                                 |                7 |             12 |         1.71 |
+|  clk_IBUF_BUFG                                         | mmio_unit/uart_slot1/uart_unit/fifo_rx_unit/c_unit/full_logic_reg_0                                                  |                                                                                                                              |                3 |             12 |         4.00 |
+|  clk_IBUF_BUFG                                         | mmio_unit/uart_slot1/uart_unit/fifo_rx_unit/c_unit/w_ptr_logic_reg[7]_0                                              |                                                                                                                              |                3 |             12 |         4.00 |
+|  clk_IBUF_BUFG                                         | cpu_unit/inst/microblaze_I/U0/MicroBlaze_Core_I/Area.Core/Decode_I/Using_FPGA.MUXCY_JUMP_CARRY3/PC_Write             | cpu_unit/inst/microblaze_I/U0/MicroBlaze_Core_I/sync_reset                                                                   |                3 |             15 |         5.00 |
+|  mmio_unit/slot_4/ledblinkie/led0/timer/count_reg[0]_0 |                                                                                                                      | mmio_unit/slot_4/ledblinkie/led0/blink1/clear                                                                                |                4 |             16 |         4.00 |
+|  mmio_unit/slot_4/ledblinkie/led1/timer/count_reg[0]_0 |                                                                                                                      | mmio_unit/slot_4/ledblinkie/led1/blink1/ms_count_reg[0]_i_1__0_n_0                                                           |                4 |             16 |         4.00 |
+|  clk_IBUF_BUFG                                         | cpu_unit/inst/microblaze_I/U0/MicroBlaze_Core_I/Area.Core/Decode_I/PreFetch_Buffer_I/of_valid_FDR_I/E[0]             | cpu_unit/inst/microblaze_I/U0/MicroBlaze_Core_I/sync_reset                                                                   |                6 |             16 |         2.67 |
+|  mmio_unit/slot_4/ledblinkie/led3/timer/count_reg[0]_0 |                                                                                                                      | mmio_unit/slot_4/ledblinkie/led3/blink1/ms_count_reg[0]_i_1__2_n_0                                                           |                4 |             16 |         4.00 |
+|  clk_IBUF_BUFG                                         |                                                                                                                      | cpu_unit/inst/microblaze_I/U0/MicroBlaze_Core_I/sync_reset                                                                   |                5 |             16 |         3.20 |
+|  mmio_unit/slot_4/ledblinkie/led2/timer/count_reg[0]_0 |                                                                                                                      | mmio_unit/slot_4/ledblinkie/led2/blink1/ms_count_reg[0]_i_1__1_n_0                                                           |                4 |             16 |         4.00 |
+|  clk_IBUF_BUFG                                         | cpu_unit/inst/iomodule_0/U0/IO_Addr_Strobe00_in                                                                      | cpu_unit/inst/rst_0/U0/peripheral_reset[0]                                                                                   |               11 |             29 |         2.64 |
+|  clk_IBUF_BUFG                                         | cpu_unit/inst/microblaze_I/U0/MicroBlaze_Core_I/Area.Core/Decode_I/Using_FPGA.of_PipeRun_MuxCY_1/Using_FPGA.Native_0 |                                                                                                                              |               28 |             32 |         1.14 |
+|  clk_IBUF_BUFG                                         |                                                                                                                      | cpu_unit/inst/iomodule_0/U0/Using_IO_Bus.io_read_keep_reg_inv_n_0                                                            |               18 |             32 |         1.78 |
+|  clk_IBUF_BUFG                                         | cpu_unit/inst/microblaze_I/U0/MicroBlaze_Core_I/Area.Core/Decode_I/Using_FPGA.clean_iReady_MuxCY/IReady              |                                                                                                                              |               13 |             47 |         3.62 |
+|  clk_IBUF_BUFG                                         | mmio_unit/timer_slot0/count_reg[47]_i_1_n_0                                                                          | mmio_unit/slot_4/ledblinkie/led3/timer/AR[0]                                                                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG                                         |                                                                                                                      |                                                                                                                              |               23 |             61 |         2.65 |
+|  clk_IBUF_BUFG                                         | cpu_unit/inst/microblaze_I/U0/MicroBlaze_Core_I/Area.Core/Decode_I/Using_FPGA.of_PipeRun_MuxCY_1/Using_FPGA.Native_0 | cpu_unit/inst/microblaze_I/U0/MicroBlaze_Core_I/sync_reset                                                                   |               33 |             90 |         2.73 |
+|  clk_IBUF_BUFG                                         | cpu_unit/inst/microblaze_I/U0/MicroBlaze_Core_I/Area.Core/Decode_I/Reg_Write                                         |                                                                                                                              |               32 |            128 |         4.00 |
+|  clk_IBUF_BUFG                                         |                                                                                                                      | mmio_unit/slot_4/ledblinkie/led3/timer/AR[0]                                                                                 |               78 |            175 |         2.24 |
++--------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+------------------+----------------+--------------+
+
+

@@ -1,0 +1,102 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Wed Oct 27 20:49:32 2021
+| Host         : DESKTOP-21NJNHC running 64-bit major release  (build 9200)
+| Command      : report_drc -file Wrapper_drc_opted.rpt -pb Wrapper_drc_opted.pb -rpx Wrapper_drc_opted.rpx
+| Design       : Wrapper
+| Device       : xc7a100tcsg324-1
+| Speed File   : -1
+| Design State : Synthesized
+------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 5
++-------------+----------+-------------------------------------------------------------+------------+
+| Rule        | Severity | Description                                                 | Violations |
++-------------+----------+-------------------------------------------------------------+------------+
+| CFGBVS-1    | Warning  | Missing CFGBVS and CONFIG_VOLTAGE Design Properties         | 1          |
+| PLHOLDVIO-2 | Warning  | Non-Optimal connections which could lead to hold violations | 4          |
++-------------+----------+-------------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+CFGBVS-1#1 Warning
+Missing CFGBVS and CONFIG_VOLTAGE Design Properties  
+Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
+
+ set_property CFGBVS value1 [current_design]
+ #where value1 is either VCCO or GND
+
+ set_property CONFIG_VOLTAGE value2 [current_design]
+ #where value2 is the voltage provided to configuration bank 0
+
+Refer to the device configuration user guide for more information.
+Related violations: <none>
+
+PLHOLDVIO-2#1 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT led0/timer/ms_count[0]_i_9 is driving clock pin of 17 cells. This could lead to large hold time violations. Involved cells are:
+led0/blink1/ms_count_reg[0], led0/blink1/ms_count_reg[10],
+led0/blink1/ms_count_reg[11], led0/blink1/ms_count_reg[12],
+led0/blink1/ms_count_reg[13], led0/blink1/ms_count_reg[14],
+led0/blink1/ms_count_reg[15], led0/blink1/ms_count_reg[1],
+led0/blink1/ms_count_reg[2], led0/blink1/ms_count_reg[3],
+led0/blink1/ms_count_reg[4], led0/blink1/ms_count_reg[5],
+led0/blink1/ms_count_reg[6], led0/blink1/ms_count_reg[7],
+led0/blink1/ms_count_reg[8] (the first 15 of 17 listed)
+Related violations: <none>
+
+PLHOLDVIO-2#2 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT led1/timer/ms_count[0]_i_9__0 is driving clock pin of 17 cells. This could lead to large hold time violations. Involved cells are:
+led1/blink1/ms_count_reg[0], led1/blink1/ms_count_reg[10],
+led1/blink1/ms_count_reg[11], led1/blink1/ms_count_reg[12],
+led1/blink1/ms_count_reg[13], led1/blink1/ms_count_reg[14],
+led1/blink1/ms_count_reg[15], led1/blink1/ms_count_reg[1],
+led1/blink1/ms_count_reg[2], led1/blink1/ms_count_reg[3],
+led1/blink1/ms_count_reg[4], led1/blink1/ms_count_reg[5],
+led1/blink1/ms_count_reg[6], led1/blink1/ms_count_reg[7],
+led1/blink1/ms_count_reg[8] (the first 15 of 17 listed)
+Related violations: <none>
+
+PLHOLDVIO-2#3 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT led2/timer/ms_count[0]_i_9__1 is driving clock pin of 17 cells. This could lead to large hold time violations. Involved cells are:
+led2/blink1/ms_count_reg[0], led2/blink1/ms_count_reg[10],
+led2/blink1/ms_count_reg[11], led2/blink1/ms_count_reg[12],
+led2/blink1/ms_count_reg[13], led2/blink1/ms_count_reg[14],
+led2/blink1/ms_count_reg[15], led2/blink1/ms_count_reg[1],
+led2/blink1/ms_count_reg[2], led2/blink1/ms_count_reg[3],
+led2/blink1/ms_count_reg[4], led2/blink1/ms_count_reg[5],
+led2/blink1/ms_count_reg[6], led2/blink1/ms_count_reg[7],
+led2/blink1/ms_count_reg[8] (the first 15 of 17 listed)
+Related violations: <none>
+
+PLHOLDVIO-2#4 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT led3/timer/ms_count[0]_i_3 is driving clock pin of 17 cells. This could lead to large hold time violations. Involved cells are:
+led3/blink1/ms_count_reg[0], led3/blink1/ms_count_reg[10],
+led3/blink1/ms_count_reg[11], led3/blink1/ms_count_reg[12],
+led3/blink1/ms_count_reg[13], led3/blink1/ms_count_reg[14],
+led3/blink1/ms_count_reg[15], led3/blink1/ms_count_reg[1],
+led3/blink1/ms_count_reg[2], led3/blink1/ms_count_reg[3],
+led3/blink1/ms_count_reg[4], led3/blink1/ms_count_reg[5],
+led3/blink1/ms_count_reg[6], led3/blink1/ms_count_reg[7],
+led3/blink1/ms_count_reg[8] (the first 15 of 17 listed)
+Related violations: <none>
+
+

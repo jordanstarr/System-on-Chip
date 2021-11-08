@@ -1,0 +1,528 @@
+
+*** Running vivado
+    with args -log Wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Wrapper.tcl
+
+
+
+****** Vivado v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source Wrapper.tcl -notrace
+Command: synth_design -top Wrapper -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 5476
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1228.773 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Wrapper' [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/sources_1/new/Wrapper.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/sources_1/new/top.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'timer_ms' [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/sources_1/new/timer_ms.sv:7]
+INFO: [Synth 8-6155] done synthesizing module 'timer_ms' (1#1) [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/sources_1/new/timer_ms.sv:7]
+INFO: [Synth 8-6157] synthesizing module 'LED_blinker' [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/sources_1/new/LED_blinker.sv:7]
+INFO: [Synth 8-6155] done synthesizing module 'LED_blinker' (2#1) [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/sources_1/new/LED_blinker.sv:7]
+INFO: [Synth 8-6155] done synthesizing module 'top' (3#1) [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/sources_1/new/top.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'Wrapper' (4#1) [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/sources_1/new/Wrapper.sv:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1228.773 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1228.773 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1228.773 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1228.773 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc]
+WARNING: [Vivado 12-584] No ports matched 'sw[0]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[1]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[2]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[3]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[4]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[5]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[6]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[7]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[8]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[9]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[10]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[11]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[12]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[13]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[14]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[15]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[4]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[0]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[3]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[1]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[2]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb_led1[0]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:76]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb_led1[1]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb_led1[2]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb_led2[0]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:79]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:79]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb_led2[1]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:80]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:80]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb_led2[2]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:81]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:81]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg[0]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg[1]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:87]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:87]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg[2]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:88]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:88]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg[3]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:89]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:89]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg[4]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:90]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:90]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg[5]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:91]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:91]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg[6]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:92]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:92]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg[7]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:94]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:94]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[0]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:96]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:96]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[1]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:97]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:97]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[2]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:98]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:98]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[3]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:99]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:99]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[4]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:100]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:100]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[5]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:101]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:101]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[6]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:102]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:102]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[7]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:103]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:103]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'audio_pdm'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:109]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:109]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'audio_on'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:110]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:110]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'tx'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:116]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:116]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rx'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:117]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:117]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ps2c'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:125]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:125]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ps2d'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:126]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:126]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'tmp_i2c_scl'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:133]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:133]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'tmp_i2c_sda'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:134]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:134]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'acl_miso'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:144]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:144]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'acl_mosi'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:145]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:145]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'acl_sclk'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:146]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:146]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'acl_ss_n'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:147]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:147]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hsync'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:156]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:156]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vsync'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:157]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:157]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[8]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:158]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:158]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[9]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:159]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:159]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[10]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:160]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:160]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[11]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:161]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:161]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[4]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:162]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:162]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[5]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:163]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:163]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[6]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:164]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:164]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[7]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:165]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:165]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[0]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:166]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:166]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[1]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:167]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:167]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[2]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:168]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:168]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[3]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:169]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:169]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sd_reset'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:174]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:174]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sd_sclk'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:175]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:175]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sd_mosi'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:176]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:176]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sd_miso'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:177]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:177]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sd_ss_n'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:180]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:180]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'adc_n[0]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:207]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:207]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'adc_p[0]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:208]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:208]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'adc_n[1]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:209]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:209]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'adc_p[1]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:210]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:210]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'adc_n[2]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:211]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:211]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'adc_p[2]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:212]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:212]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'adc_n[3]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:213]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:213]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'adc_p[3]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:214]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:214]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ja_top[1]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:223]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:223]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ja_top[2]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:224]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:224]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ja_top[3]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:225]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:225]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ja_top[4]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:226]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:226]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ja_btm[7]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:227]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:227]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ja_btm[8]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:228]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:228]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ja_btm[9]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:229]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:229]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ja_btm[10]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:230]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:230]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jb_top[1]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:237]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:237]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jb_top[2]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:238]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:238]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jb_top[3]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:239]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:239]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jb_top[4]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:240]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:240]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jb_btm[7]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:241]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:241]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jb_btm[8]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:242]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:242]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jb_btm[9]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:243]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:243]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jb_btm[10]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:244]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:244]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jc_top[1]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:251]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:251]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jc_top[2]'. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:252]
+INFO: [Common 17-14] Message 'Vivado 12-584' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:252]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc:252]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.srcs/constrs_1/imports/constraint/Nexys4_DDR_chu.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1228.773 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1228.773 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 1228.773 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 1228.773 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 1228.773 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 1228.773 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 4     
+	   2 Input   16 Bit       Adders := 4     
++---Registers : 
+	               32 Bit    Registers := 4     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 1228.773 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:53 ; elapsed = 00:00:57 . Memory (MB): peak = 1228.773 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:54 ; elapsed = 00:00:57 . Memory (MB): peak = 1228.773 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:54 ; elapsed = 00:00:57 . Memory (MB): peak = 1228.773 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:02 ; elapsed = 00:01:06 . Memory (MB): peak = 1228.773 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:02 ; elapsed = 00:01:06 . Memory (MB): peak = 1228.773 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:02 ; elapsed = 00:01:06 . Memory (MB): peak = 1228.773 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:02 ; elapsed = 00:01:06 . Memory (MB): peak = 1228.773 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:02 ; elapsed = 00:01:06 . Memory (MB): peak = 1228.773 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:02 ; elapsed = 00:01:06 . Memory (MB): peak = 1228.773 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    64|
+|3     |LUT1   |     8|
+|4     |LUT2   |     6|
+|5     |LUT3   |    97|
+|6     |LUT4   |    25|
+|7     |LUT5   |    52|
+|8     |LUT6   |    13|
+|9     |FDCE   |   132|
+|10    |FDRE   |    68|
+|11    |IBUF   |     2|
+|12    |OBUF   |     4|
+|13    |OBUFT  |    12|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:02 ; elapsed = 00:01:06 . Memory (MB): peak = 1228.773 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:45 ; elapsed = 00:01:01 . Memory (MB): peak = 1228.773 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:01:03 ; elapsed = 00:01:06 . Memory (MB): peak = 1228.773 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1228.773 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 64 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1239.414 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 7db7bbba
+INFO: [Common 17-83] Releasing license: Synthesis
+24 Infos, 100 Warnings, 100 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:13 ; elapsed = 00:01:41 . Memory (MB): peak = 1239.414 ; gain = 10.641
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/LED_core/LED_core.runs/synth_1/Wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Wrapper_utilization_synth.rpt -pb Wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 27 20:48:14 2021...

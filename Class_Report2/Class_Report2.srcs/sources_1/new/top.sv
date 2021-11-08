@@ -47,6 +47,4 @@ module top(
         .sseg(sseg), 
         .an(an)
         );
-   
-    
 endmodule

@@ -1,0 +1,14 @@
+sv xpm  \
+"C:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv" \
+
+verilog blk_mem_gen_v8_4_4  \
+"../../../ipstatic/simulation/blk_mem_gen_v8_4.v" \
+
+verilog xil_defaultlib  \
+"../../../../Class_report_4.gen/sources_1/ip/cpu/bd_0/ip/ip_6/sim/bd_3914_lmb_bram_I_0.v" \
+"../../../../Class_report_4.gen/sources_1/ip/cpu/bd_0/sim/bd_3914.v" \
+"../../../../Class_report_4.gen/sources_1/ip/cpu/sim/cpu.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

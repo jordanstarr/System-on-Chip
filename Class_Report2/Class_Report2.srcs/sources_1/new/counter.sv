@@ -20,3 +20,6 @@ module counter#(parameter N=18, parameter M=2)(
     
 endmodule
 
+
+he will have to ask, there has been a fast speed and a slow speed, both are pretty slow in general, talk of gear ratios, he would have to pull someone in to answer, no not really, never thought to solve problemw ith control 
+

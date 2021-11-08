@@ -1,0 +1,3 @@
+Duplicated file found; will not be sent for synthesis: c:/Users/Jordan/OneDrive/College/Engineering/System on Chip/FPGA_vanilla/FPGA_vanilla.gen/sources_1/ip/cpu/bd_0/ip/ip_3/hdl/lmb_v10_v3_0_vh_rfs.vhd
+Duplicated file found; will not be sent for synthesis: c:/Users/Jordan/OneDrive/College/Engineering/System on Chip/FPGA_vanilla/FPGA_vanilla.gen/sources_1/ip/cpu/bd_0/ip/ip_5/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd
+CRC performance measure: elapsed=00:00:00.011s;;memory_peak=1230.078MB;;memory_gain=0.000MB

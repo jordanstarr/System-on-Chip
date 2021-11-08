@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Nov  7 16:17:56 2021
+# Process ID: 788
+# Current directory: C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/Class Report 4/Class_report_4/Class_report_4.runs/synth_1
+# Command line: vivado.exe -log mcs_top_vanilla.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mcs_top_vanilla.tcl
+# Log file: C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/Class Report 4/Class_report_4/Class_report_4.runs/synth_1/mcs_top_vanilla.vds
+# Journal file: C:/Users/Jordan/OneDrive/College/Engineering/System on Chip/Class Report 4/Class_report_4/Class_report_4.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source mcs_top_vanilla.tcl -notrace
