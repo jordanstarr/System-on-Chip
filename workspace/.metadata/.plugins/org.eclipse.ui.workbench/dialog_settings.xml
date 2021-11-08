@@ -4,8 +4,8 @@
 		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
 		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="false"/>
 		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
-			<item value="C:\Users\Jordan\OneDrive\College\Engineering\System on Chip\Extracted files for SoC\fpga_mcs_sv_src\cpp\drv"/>
 			<item value="C:\Users\Jordan\OneDrive\College\Engineering\System on Chip\Extracted files for SoC\fpga_mcs_sv_src\cpp\app"/>
+			<item value="C:\Users\Jordan\OneDrive\College\Engineering\System on Chip\Extracted files for SoC\fpga_mcs_sv_src\cpp\drv"/>
 		</list>
 	</section>
 </section>

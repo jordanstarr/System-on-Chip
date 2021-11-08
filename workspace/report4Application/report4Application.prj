@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="report4Application" location="C:/Users/Jordan/OneDrive/College/WorkSpace/report4Application" platform="C:/Users/Jordan/OneDrive/College/WorkSpace/report4/export/report4/report4.xpfm" platformUID="xilinx:nexys4_ddr::0.0(custom)" systemProject="report4Application_system" sysConfig="report4" runtime="C/C++" cpu="standalone_domain" cpuInstance="microblaze_I" os="standalone" language="CPP" mssSignature="4fc79f7a87c79ac6fb857715281cfcf9">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.287178502">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.2053305953" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>

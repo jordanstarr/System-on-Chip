@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item key="scw_hwspec" value="C:\Users\Jordan\OneDrive\College\Engineering\System on Chip\FPGA_vanilla"/>
-	<item key="fpga_elf_mem_selection" value="C:\Users\Jordan\workspace\part3\Debug"/>
+	<item key="scw_hwspec" value="C:\Users\Jordan\OneDrive\College\Engineering\System on Chip\Class Report 4\Class_report_4"/>
+	<item key="fpga_elf_mem_selection" value="C:\Users\Jordan\OneDrive\College\WorkSpace\report4part3App\Debug"/>
 </section>

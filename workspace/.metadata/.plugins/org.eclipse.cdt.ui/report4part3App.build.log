@@ -1,0 +1,21 @@
+21:22:20 **** Incremental Build of configuration Debug for project report4part3App ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -IC:/Users/Jordan/OneDrive/College/WorkSpace/report4part3/export/report4part3/sw/report4part3/standalone_domain/bspinclude/include -mno-xl-reorder -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: report4part3App.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -LC:/Users/Jordan/OneDrive/College/WorkSpace/report4part3/export/report4part3/sw/report4part3/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "report4part3App.elf"  ./src/chu_init.o ./src/gpio_cores.o ./src/main_vanilla_test.o ./src/timer_core.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: report4part3App.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size report4part3App.elf  |tee "report4part3App.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14304	    284	   3148	  17736	   4548	report4part3App.elf
+'Finished building: report4part3App.elf.size'
+' '
+
+21:22:22 Build Finished (took 2s.399ms)
+

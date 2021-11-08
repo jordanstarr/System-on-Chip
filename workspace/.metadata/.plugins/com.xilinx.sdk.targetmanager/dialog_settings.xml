@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item key="codeForReport3_system-bitFile" value="${project_loc:codeForReport3}/_ide/bitstream/report3.bit"/>
-	<item key="codeForReport3_system-bmmFile" value="${project_loc:codeForReport3}/_ide/bitstream/report3.mmi"/>
-	<item key="codeForReport3_system-target" value="Local"/>
-	<item key="codeForReport3_system-device" value="Auto Detect"/>
-	<item key="codeForReport3_system-partial_bit" value="false"/>
-	<item key="codeForReport3_system-skip_rev_check" value="false"/>
-	<item key="programfpga.sdxproject" value="part3_system"/>
-	<item key="codeForReport3_system-microblaze_I-initElf" value="C:\Users\Jordan\workspace\codeForReport3\Debug\codeForReport3.elf"/>
+	<item key="report4Application_system-bitFile" value="${project_loc:report4Application}/_ide/bitstream/report4.bit"/>
+	<item key="report4Application_system-bmmFile" value="${project_loc:report4Application}/_ide/bitstream/report4.mmi"/>
+	<item key="report4Application_system-target" value="Local"/>
+	<item key="report4Application_system-device" value="Auto Detect"/>
+	<item key="report4Application_system-partial_bit" value="false"/>
+	<item key="report4Application_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="report4part3App_system"/>
+	<item key="report4Application_system-microblaze_I-initElf" value="C:\Users\Jordan\OneDrive\College\WorkSpace\report4part3App\Debug\report4part3App.elf"/>
 	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Nexys4DDR 210292A4C6F2A&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-Nexys4DDR-210292A4C6F2A-13631093-0&quot;}}]}"/>
-	<item key="part3_system-bitFile" value="${project_loc:part3}/_ide/bitstream/report3part3.bit"/>
-	<item key="part3_system-bmmFile" value="${project_loc:part3}/_ide/bitstream/report3part3.mmi"/>
-	<item key="part3_system-target" value="Local"/>
-	<item key="part3_system-device" value="Auto Detect"/>
-	<item key="part3_system-partial_bit" value="false"/>
-	<item key="part3_system-skip_rev_check" value="false"/>
-	<item key="part3_system-microblaze_I-initElf" value="C:\Users\Jordan\workspace\part3\Debug\part3.elf"/>
+	<item key="report4part3App_system-bitFile" value="${project_loc:report4part3App}/_ide/bitstream/report4part3.bit"/>
+	<item key="report4part3App_system-bmmFile" value="${project_loc:report4part3App}/_ide/bitstream/report4part3.mmi"/>
+	<item key="report4part3App_system-target" value="Local"/>
+	<item key="report4part3App_system-device" value="Auto Detect"/>
+	<item key="report4part3App_system-partial_bit" value="false"/>
+	<item key="report4part3App_system-skip_rev_check" value="false"/>
+	<item key="report4part3App_system-microblaze_I-initElf" value="C:\Users\Jordan\OneDrive\College\WorkSpace\report4part3App\Debug\report4part3App.elf"/>
 </section>

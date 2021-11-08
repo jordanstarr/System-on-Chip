@@ -1,78 +1,229 @@
-12:55:25 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Jordan\workspace\temp_xsdb_launch_script.tcl
-12:55:26 INFO  : Platform repository initialization has completed.
-12:55:26 INFO  : Registering command handlers for Vitis TCF services
-12:55:32 INFO  : XSCT server has started successfully.
-12:55:37 INFO  : Successfully done setting XSCT server connection channel  
-12:55:37 INFO  : plnx-install-location is set to ''
-12:55:37 INFO  : Successfully done query RDI_DATADIR 
-12:55:37 INFO  : Successfully done setting workspace for the tool. 
-12:57:01 INFO  : Result from executing command 'getProjects': report3
-12:57:01 INFO  : Result from executing command 'getPlatforms': 
-16:04:04 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Jordan\workspace\temp_xsdb_launch_script.tcl
-16:04:10 INFO  : Platform repository initialization has completed.
-16:04:10 INFO  : XSCT server has started successfully.
-16:04:10 INFO  : plnx-install-location is set to ''
-16:04:10 INFO  : Successfully done setting XSCT server connection channel  
-16:04:11 INFO  : Registering command handlers for Vitis TCF services
-16:04:11 INFO  : Successfully done setting workspace for the tool. 
-16:04:11 INFO  : Successfully done query RDI_DATADIR 
-16:06:36 INFO  : Result from executing command 'getProjects': report3
-16:06:36 INFO  : Result from executing command 'getPlatforms': report3|C:/Users/Jordan/workspace/report3/export/report3/report3.xpfm
-16:07:37 INFO  : Result from executing command 'getProjects': report3;report3part2
-16:07:37 INFO  : Result from executing command 'getPlatforms': report3|C:/Users/Jordan/workspace/report3/export/report3/report3.xpfm
-16:07:57 INFO  : Result from executing command 'getProjects': report3;report3part2
-16:07:57 INFO  : Result from executing command 'getPlatforms': report3part2|C:/Users/Jordan/workspace/report3part2/export/report3part2/report3part2.xpfm;report3|C:/Users/Jordan/workspace/report3/export/report3/report3.xpfm
-16:10:03 INFO  : Checking for BSP changes to sync application flags for project 'codeForReport3'...
-16:19:57 INFO  : Checking for BSP changes to sync application flags for project 'codeForReport3'...
-16:21:49 INFO  : Bit file 'C:/Users/Jordan/workspace/codeForReport3/_ide/bitstream/download.bit' is generated.
-16:21:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
-16:21:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
-16:21:55 INFO  : Device configured successfully with "C:/Users/Jordan/workspace/codeForReport3/_ide/bitstream/download.bit"
-16:26:31 INFO  : Checking for BSP changes to sync application flags for project 'codeForReport3'...
-16:27:22 INFO  : Bit file 'C:/Users/Jordan/workspace/codeForReport3/_ide/bitstream/download.bit' is generated.
-16:27:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
-16:27:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
-16:27:23 INFO  : Device configured successfully with "C:/Users/Jordan/workspace/codeForReport3/_ide/bitstream/download.bit"
-16:27:53 INFO  : Checking for BSP changes to sync application flags for project 'codeForReport3'...
-16:28:43 INFO  : Bit file 'C:/Users/Jordan/workspace/codeForReport3/_ide/bitstream/download.bit' is generated.
-16:28:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
-16:28:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
-16:28:44 INFO  : Device configured successfully with "C:/Users/Jordan/workspace/codeForReport3/_ide/bitstream/download.bit"
-16:44:09 INFO  : Result from executing command 'getProjects': report3;report3part2;report3part3
-16:44:09 INFO  : Result from executing command 'getPlatforms': report3part2|C:/Users/Jordan/workspace/report3part2/export/report3part2/report3part2.xpfm;report3|C:/Users/Jordan/workspace/report3/export/report3/report3.xpfm
-16:44:39 INFO  : Result from executing command 'getProjects': report3;report3part2;report3part3
-16:44:39 INFO  : Result from executing command 'getPlatforms': report3part2|C:/Users/Jordan/workspace/report3part2/export/report3part2/report3part2.xpfm;report3part3|C:/Users/Jordan/workspace/report3part3/export/report3part3/report3part3.xpfm;report3|C:/Users/Jordan/workspace/report3/export/report3/report3.xpfm
-16:45:02 INFO  : Projects exported to 'C:\Users\Jordan\vitis_export_archive.ide.zip'
-16:47:01 INFO  : Checking for BSP changes to sync application flags for project 'codeForReport3'...
-16:49:02 INFO  : Checking for BSP changes to sync application flags for project 'part3'...
-16:49:58 INFO  : Bit file 'C:/Users/Jordan/workspace/part3/_ide/bitstream/download.bit' is generated.
-16:49:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
-16:49:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
-16:49:58 ERROR : couldn't open "C:/Users/Jordan/workspace/part3/_ide/bitstream/download.bit": no such file or directory
-16:50:33 INFO  : Bit file 'C:/Users/Jordan/workspace/part3/_ide/bitstream/download.bit' is generated.
-16:50:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
-16:50:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
-16:50:33 ERROR : couldn't open "C:/Users/Jordan/workspace/part3/_ide/bitstream/download.bit": no such file or directory
-16:53:27 INFO  : Bit file 'C:/Users/Jordan/workspace/part3/_ide/bitstream/download.bit' is generated.
-16:53:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
-16:53:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
-16:53:27 ERROR : couldn't open "C:/Users/Jordan/workspace/part3/_ide/bitstream/download.bit": no such file or directory
-16:55:14 INFO  : Bit file 'C:/Users/Jordan/workspace/part3/_ide/bitstream/download.bit' is generated.
-16:55:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
-16:55:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
-16:55:15 INFO  : Device configured successfully with "C:/Users/Jordan/workspace/part3/_ide/bitstream/download.bit"
-18:16:40 INFO  : Checking for BSP changes to sync application flags for project 'codeForReport3'...
-18:17:19 INFO  : Checking for BSP changes to sync application flags for project 'codeForReport3'...
-18:20:16 INFO  : Checking for BSP changes to sync application flags for project 'codeForReport3'...
-18:20:42 INFO  : Bit file 'C:/Users/Jordan/workspace/part3/_ide/bitstream/download.bit' is generated.
-18:20:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
-18:20:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
-18:20:42 INFO  : Device configured successfully with "C:/Users/Jordan/workspace/part3/_ide/bitstream/download.bit"
-13:32:24 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Jordan\workspace\temp_xsdb_launch_script.tcl
-13:32:32 INFO  : Platform repository initialization has completed.
-13:32:32 INFO  : XSCT server has started successfully.
-13:32:32 INFO  : plnx-install-location is set to ''
-13:32:32 INFO  : Successfully done setting XSCT server connection channel  
-13:32:33 INFO  : Registering command handlers for Vitis TCF services
-13:32:37 INFO  : Successfully done setting workspace for the tool. 
-13:32:37 INFO  : Successfully done query RDI_DATADIR 
+13:54:39 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Jordan\OneDrive\College\WorkSpace\temp_xsdb_launch_script.tcl
+13:54:39 INFO  : Platform repository initialization has completed.
+13:54:39 INFO  : Registering command handlers for Vitis TCF services
+13:54:42 INFO  : XSCT server has started successfully.
+13:54:42 INFO  : plnx-install-location is set to ''
+13:54:42 INFO  : Successfully done setting XSCT server connection channel  
+13:54:42 INFO  : Successfully done query RDI_DATADIR 
+13:54:42 INFO  : Successfully done setting workspace for the tool. 
+13:55:29 INFO  : Result from executing command 'getProjects': report4
+13:55:29 INFO  : Result from executing command 'getPlatforms': 
+13:59:24 INFO  : Result from executing command 'getProjects': report4
+13:59:24 INFO  : Result from executing command 'getPlatforms': report4|C:/Users/Jordan/OneDrive/College/WorkSpace/report4/export/report4/report4.xpfm
+13:59:24 INFO  : Checking for BSP changes to sync application flags for project 'report4Application'...
+14:00:55 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4Application/_ide/bitstream/download.bit' is generated.
+14:00:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:00:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+14:00:59 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4Application/_ide/bitstream/download.bit"
+14:02:40 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4Application/_ide/bitstream/download.bit' is generated.
+14:02:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:02:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+14:02:41 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4Application/_ide/bitstream/download.bit"
+14:28:33 INFO  : Result from executing command 'getProjects': report4;report4part2
+14:28:33 INFO  : Result from executing command 'getPlatforms': report4|C:/Users/Jordan/OneDrive/College/WorkSpace/report4/export/report4/report4.xpfm
+14:28:50 INFO  : Result from executing command 'getProjects': report4;report4part2
+14:28:50 INFO  : Result from executing command 'getPlatforms': report4part2|C:/Users/Jordan/OneDrive/College/WorkSpace/report4part2/export/report4part2/report4part2.xpfm;report4|C:/Users/Jordan/OneDrive/College/WorkSpace/report4/export/report4/report4.xpfm
+14:33:15 INFO  : Checking for BSP changes to sync application flags for project 'report4part2App'...
+14:34:09 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4Application/_ide/bitstream/download.bit' is generated.
+14:34:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:34:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+14:34:10 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4Application/_ide/bitstream/download.bit"
+16:07:10 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4Application/_ide/bitstream/download.bit' is generated.
+16:07:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:07:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+16:07:10 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4Application/_ide/bitstream/download.bit"
+16:33:10 INFO  : Result from executing command 'getProjects': report4;report4part2;report4part3
+16:33:10 INFO  : Result from executing command 'getPlatforms': report4part2|C:/Users/Jordan/OneDrive/College/WorkSpace/report4part2/export/report4part2/report4part2.xpfm;report4|C:/Users/Jordan/OneDrive/College/WorkSpace/report4/export/report4/report4.xpfm
+16:34:44 INFO  : Result from executing command 'getProjects': report4;report4part2;report4part3
+16:34:44 INFO  : Result from executing command 'getPlatforms': report4part2|C:/Users/Jordan/OneDrive/College/WorkSpace/report4part2/export/report4part2/report4part2.xpfm;report4part3|C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3/export/report4part3/report4part3.xpfm;report4|C:/Users/Jordan/OneDrive/College/WorkSpace/report4/export/report4/report4.xpfm
+16:34:48 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+16:39:36 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+16:40:30 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4Application/_ide/bitstream/download.bit' is generated.
+16:40:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:40:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+16:40:31 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4Application/_ide/bitstream/download.bit"
+16:42:53 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+16:42:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:42:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+16:42:53 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+16:50:19 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+16:56:45 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+16:57:05 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+16:57:18 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+16:57:35 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+16:58:24 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+16:58:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:58:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+16:58:25 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+16:59:08 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+17:00:01 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+17:00:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:00:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+17:00:01 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+17:03:47 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+17:04:37 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+17:04:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:04:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+17:04:38 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+17:11:30 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+17:12:23 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+17:12:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:12:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+17:12:24 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+17:13:19 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+17:14:19 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+17:14:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:14:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+17:14:20 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+17:14:45 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+17:15:31 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+17:15:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:15:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+17:15:32 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+17:17:12 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+17:17:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:17:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+17:17:12 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+17:17:47 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+17:18:54 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+17:18:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:18:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+17:18:54 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+17:20:11 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+17:20:59 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+17:21:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:21:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+17:21:00 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+17:34:07 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+17:35:22 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+17:35:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:35:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+17:35:22 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+17:35:48 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+17:36:05 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+17:37:08 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+17:37:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:37:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+17:37:09 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+17:47:10 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+17:48:19 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+17:48:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:48:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+17:48:20 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+17:51:23 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+17:51:46 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+17:51:58 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+17:53:06 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+17:53:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:53:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+17:53:07 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+17:56:06 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+17:57:09 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+17:57:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:57:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+17:57:10 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+17:58:40 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+18:00:18 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+18:00:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:00:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+18:00:19 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+19:56:01 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+19:56:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:56:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+19:56:02 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+20:35:53 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+20:38:35 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+20:38:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:38:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+20:38:36 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+20:40:57 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+20:41:26 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+20:42:17 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+20:42:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:42:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+20:42:18 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+20:45:36 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+20:46:34 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+20:46:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:46:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+20:46:35 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+20:47:55 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+20:48:08 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+20:49:45 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+20:49:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:49:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+20:49:46 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+20:52:12 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+20:53:08 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+20:53:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:53:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+20:53:09 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+20:54:45 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+20:55:33 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+20:55:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:55:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+20:55:33 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+20:57:03 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+20:58:13 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+20:58:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:58:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+20:58:14 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+20:59:35 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+21:00:33 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+21:00:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:00:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+21:00:34 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+21:01:39 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+21:02:32 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+21:02:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:02:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+21:02:33 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+21:03:31 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+21:04:16 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+21:04:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:04:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+21:04:17 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+21:06:10 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+21:06:56 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+21:07:46 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+21:07:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:07:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+21:07:47 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+21:10:13 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+21:11:02 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+21:11:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:11:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+21:11:02 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+21:12:27 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+21:13:15 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+21:13:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:13:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+21:13:16 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+21:13:48 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+21:14:37 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+21:14:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:14:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+21:14:38 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+21:15:21 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+21:16:09 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+21:16:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:16:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+21:16:10 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+21:17:55 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+21:18:41 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+21:18:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:18:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+21:18:42 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+21:22:19 INFO  : Checking for BSP changes to sync application flags for project 'report4part3App'...
+21:23:26 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+21:23:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:23:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+21:23:27 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+06:48:07 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+06:48:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:48:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+06:48:08 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"
+15:02:30 INFO  : Bit file 'C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit' is generated.
+15:02:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:02:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4C6F2A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4C6F2A-13631093-0"}' command is executed.
+15:02:31 INFO  : Device configured successfully with "C:/Users/Jordan/OneDrive/College/WorkSpace/report4part3App/_ide/bitstream/download.bit"

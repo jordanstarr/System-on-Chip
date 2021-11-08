@@ -1,0 +1,41 @@
+14:33:15 **** Build of configuration Debug for project report4part2App ****
+make all 
+'Building file: ../src/chu_init.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chu_init.o" -IC:/Users/Jordan/OneDrive/College/WorkSpace/report4part2/export/report4part2/sw/report4part2/standalone_domain/bspinclude/include -mno-xl-reorder -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chu_init.d" -MT"src/chu_init.o" -o "src/chu_init.o" "../src/chu_init.cpp"
+'Finished building: ../src/chu_init.cpp'
+' '
+'Building file: ../src/gpio_cores.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_cores.o" -IC:/Users/Jordan/OneDrive/College/WorkSpace/report4part2/export/report4part2/sw/report4part2/standalone_domain/bspinclude/include -mno-xl-reorder -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/gpio_cores.d" -MT"src/gpio_cores.o" -o "src/gpio_cores.o" "../src/gpio_cores.cpp"
+'Finished building: ../src/gpio_cores.cpp'
+' '
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -IC:/Users/Jordan/OneDrive/College/WorkSpace/report4part2/export/report4part2/sw/report4part2/standalone_domain/bspinclude/include -mno-xl-reorder -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building file: ../src/timer_core.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timer_core.o" -IC:/Users/Jordan/OneDrive/College/WorkSpace/report4part2/export/report4part2/sw/report4part2/standalone_domain/bspinclude/include -mno-xl-reorder -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/timer_core.d" -MT"src/timer_core.o" -o "src/timer_core.o" "../src/timer_core.cpp"
+'Finished building: ../src/timer_core.cpp'
+' '
+'Building file: ../src/uart_core.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/uart_core.o" -IC:/Users/Jordan/OneDrive/College/WorkSpace/report4part2/export/report4part2/sw/report4part2/standalone_domain/bspinclude/include -mno-xl-reorder -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/uart_core.d" -MT"src/uart_core.o" -o "src/uart_core.o" "../src/uart_core.cpp"
+'Finished building: ../src/uart_core.cpp'
+' '
+'Building target: report4part2App.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -LC:/Users/Jordan/OneDrive/College/WorkSpace/report4part2/export/report4part2/sw/report4part2/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "report4part2App.elf"  ./src/chu_init.o ./src/gpio_cores.o ./src/main_vanilla_test.o ./src/timer_core.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: report4part2App.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size report4part2App.elf  |tee "report4part2App.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9220	    284	   3144	  12648	   3168	report4part2App.elf
+'Finished building: report4part2App.elf.size'
+' '
+
+14:33:18 Build Finished (took 2s.772ms)
+
